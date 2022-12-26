@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using ProductCommandAPI.Models;
 using ProductCommandAPI.Producers;
 using ProductCommandAPI.Schemas;
+using System.Text.Json;
 
 namespace ProductCommandAPI.Controllers;
 
@@ -19,17 +20,23 @@ public class ProductController : ControllerBase
     }
 
     [HttpPost]
-    public ActionResult<Product> CreateProduct(ProductRequest request)
+    public IActionResult CreateProduct(List<ProductRequest> request)
     {
-        var payload = new Product
+        List<Product> payload = new List<Product>();
+        foreach (var productRequest in request)
         {
-            Id = Guid.NewGuid(),
-            Name = request.Name,
-            Price = request.Price,
-            Quantity = request.Quantity
-        };
-        this._productTopicProducer.EmitMessage(this._topic, payload);
+            var newData = new Product
+            {
+                Id = Guid.NewGuid(),
+                Name = productRequest.Name,
+                Price = productRequest.Price,
+                Quantity = productRequest.Quantity
+            };
+            payload.Add(newData);
+        }
+        string jsonString = JsonSerializer.Serialize(payload);
+        this._productTopicProducer.EmitMessage(this._topic, jsonString);
         
-        return payload;
+        return Ok(payload);
     }
 }
