@@ -1,15 +1,15 @@
 using Confluent.Kafka;
-using ProductQueryAPI.Handlers;
+using CartQueryAPI.Handlers;
 
-namespace ProductQueryAPI.Consumers;
+namespace CartQueryAPI.Consumers;
 
-public class ProductTopicConsumer : BackgroundService
+public class CartTopicConsumer : BackgroundService
 {
     private readonly string _topic;
     private readonly IConsumer<Ignore, string> _consumer;
     private readonly IServiceScopeFactory _serviceScopeFactory;
 
-    public ProductTopicConsumer(IConfiguration configuration, IServiceScopeFactory serviceScopeFactory)
+    public CartTopicConsumer(IConfiguration configuration, IServiceScopeFactory serviceScopeFactory)
     {
         var consumerConfig = new ConsumerConfig();
         configuration.GetSection("Kafka:ConsumerSettings").Bind(consumerConfig);
@@ -32,18 +32,18 @@ public class ProductTopicConsumer : BackgroundService
             try
             {
                 using var scope = _serviceScopeFactory.CreateScope();
-                var handler = scope.ServiceProvider.GetRequiredService<IProductHandler>();
+                var handler = scope.ServiceProvider.GetRequiredService<ICartHandler>();
                 var payload = this._consumer.Consume(cancellationToken);
                 var header = payload.Message.Headers[0].Key;
                 var data = payload.Message.Value;
 
                 switch (header)
                 {
-                    case "ProductCreated":
-                        handler.CreateProduct(data);
+                    case "CartCreated":
+                        handler.CreateCart(data);
                         break;
-                    case "ProductQuantityUpdated":
-                        handler.UpdateProductQuantity(data);
+                    case "CartDeleted":
+                        handler.DeleteSpecificCart(data);
                         break;
                 }
             }

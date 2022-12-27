@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using ProductQueryAPI.Data;
-using ProductQueryAPI.Models;
+using CartQueryAPI.Data;
+using CartQueryAPI.Models;
 
-namespace ProductQueryAPI.Repositories;
+namespace CartQueryAPI.Repositories;
 
 public class ProductRepository : IProductRepository
 {

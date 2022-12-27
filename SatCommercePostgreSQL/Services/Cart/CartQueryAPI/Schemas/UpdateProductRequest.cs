@@ -1,4 +1,4 @@
-namespace ProductQueryAPI.Schemas;
+namespace CartQueryAPI.Schemas;
 
 public class UpdateProductRequest
 {

@@ -1,4 +1,4 @@
-namespace ProductQueryAPI.Models;
+namespace CartQueryAPI.Models;
 
 public class Product
 {
@@ -10,6 +10,6 @@ public class Product
     public int? Weight { get; set; }
     public int? Sold { get; set; }
     public int? Rating { get; set; }
-    public int Price { get; set; }
-    public int Quantity { get; set; }
+    public int? Price { get; set; }
+    public int? Quantity { get; set; }
 }

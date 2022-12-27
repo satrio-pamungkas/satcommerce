@@ -1,7 +1,7 @@
 using Confluent.Kafka;
-using ProductQueryAPI.Handlers;
+using CartQueryAPI.Handlers;
 
-namespace ProductQueryAPI.Consumers;
+namespace CartQueryAPI.Consumers;
 
 public class ProductTopicConsumer : BackgroundService
 {
