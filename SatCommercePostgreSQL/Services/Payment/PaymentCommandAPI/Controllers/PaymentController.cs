@@ -11,12 +11,16 @@ namespace PaymentCommandAPI.Controllers;
 public class PaymentController : ControllerBase
 {
     private readonly PaymentTopicProducer _paymentTopicProducer;
-    private readonly string _topic;
+    private readonly CartTopicProducer _cartTopicProducer;
+    private readonly string _paymentTopic;
+    private readonly string _cartTopic;
 
     public PaymentController(IConfiguration configuration)
     {
         this._paymentTopicProducer = new PaymentTopicProducer(configuration);
-        this._topic = configuration.GetValue<string>("Kafka:Topic:Payment");
+        this._cartTopicProducer = new CartTopicProducer(configuration);
+        this._paymentTopic = configuration.GetValue<string>("Kafka:Topic:Payment");
+        this._cartTopic = configuration.GetValue<string>("Kafka:Topic:Cart");
     }
 
     [HttpPost]
@@ -36,9 +40,33 @@ public class PaymentController : ControllerBase
             payload.Add(newData);
         }
 
-        string jsonString = JsonSerializer.Serialize(payload);
-        this._paymentTopicProducer.CreatePayment(this._topic,jsonString);
+        string paymentPayload = JsonSerializer.Serialize(payload);
+        this._paymentTopicProducer.CreatePayment(this._paymentTopic,paymentPayload);
 
         return Ok(payload);
+    }
+
+    [HttpPost("{id}")]
+    public IActionResult SendPayment(string id)
+    {
+        var payload = new DeleteCartRequest {CartId = new Guid(id)};
+        string jsonString = JsonSerializer.Serialize(payload);
+        this._cartTopicProducer.DeleteCart(this._cartTopic,jsonString);
+
+        var response = new SuccessResponse
+        {
+            CartId = new Guid(id),
+            Description = "Payment is success",
+            Valid = true
+        };
+
+        return Ok(response);
+    }
+    
+    [HttpDelete]
+    public IActionResult DeleteAll()
+    {
+        this._paymentTopicProducer.DeletePayment(_paymentTopic);
+        return Ok();
     }
 }

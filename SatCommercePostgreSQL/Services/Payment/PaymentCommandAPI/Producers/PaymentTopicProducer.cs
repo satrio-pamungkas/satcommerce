@@ -23,4 +23,15 @@ public class PaymentTopicProducer
             Value = payload
         });
     }
+
+    public void DeletePayment(string topic)
+    {
+        var headers = new Headers();
+        headers.Add("PaymentDeleted", new byte[] { 100 });
+        this._producer.ProduceAsync(topic, new Message<Null, string>
+        {
+            Headers = headers,
+            Value = "Delete All Payments"
+        });
+    }
 }
