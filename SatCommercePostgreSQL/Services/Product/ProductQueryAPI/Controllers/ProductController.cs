@@ -22,10 +22,9 @@ public class ProductController : ControllerBase
         return Ok(data);
     }
 
-    [HttpGet("{id}")]
-    public ActionResult<Product> GetSpecific(string id)
+    [HttpGet("{slug}")]
+    public ActionResult<Product> GetSpecific(string slug)
     {
-        var uuid = new Guid(id);
-        return this._productRepository.GetById(uuid);
+        return this._productRepository.GetBySlug(slug);
     }
 }

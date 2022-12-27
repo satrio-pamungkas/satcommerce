@@ -1,19 +1,19 @@
 using Confluent.Kafka;
-using CartQueryAPI.Handlers;
+using PaymentQueryAPI.Handlers;
 
-namespace CartQueryAPI.Consumers;
+namespace PaymentQueryAPI.Consumers;
 
-public class CartTopicConsumer : BackgroundService
+public class PaymentTopicConsumer : BackgroundService
 {
     private readonly string _topic;
     private readonly IConsumer<Ignore, string> _consumer;
     private readonly IServiceScopeFactory _serviceScopeFactory;
 
-    public CartTopicConsumer(IConfiguration configuration, IServiceScopeFactory serviceScopeFactory)
+    public PaymentTopicConsumer(IConfiguration configuration, IServiceScopeFactory serviceScopeFactory)
     {
         var consumerConfig = new ConsumerConfig();
         configuration.GetSection("Kafka:ConsumerSettings").Bind(consumerConfig);
-        this._topic = configuration.GetValue<string>("Kafka:Topic:Cart");
+        this._topic = configuration.GetValue<string>("Kafka:Topic:Payment");
         this._consumer = new ConsumerBuilder<Ignore, string>(consumerConfig).Build();
         this._serviceScopeFactory = serviceScopeFactory;
     }
@@ -32,18 +32,18 @@ public class CartTopicConsumer : BackgroundService
             try
             {
                 using var scope = _serviceScopeFactory.CreateScope();
-                var handler = scope.ServiceProvider.GetRequiredService<ICartHandler>();
+                var handler = scope.ServiceProvider.GetRequiredService<IPaymentHandler>();
                 var payload = this._consumer.Consume(cancellationToken);
                 var header = payload.Message.Headers[0].Key;
                 var data = payload.Message.Value;
 
                 switch (header)
                 {
-                    case "CartCreated":
-                        handler.CreateCart(data);
+                    case "PaymentCreated":
+                        handler.CreatePayment(data);
                         break;
-                    case "CartDeleted":
-                        handler.DeleteSpecificCart(data);
+                    case "PaymentDeleted":
+                        handler.DeletePayment();
                         break;
                 }
             }
