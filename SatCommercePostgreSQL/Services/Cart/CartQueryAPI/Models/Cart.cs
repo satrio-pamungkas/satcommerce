@@ -1,8 +1,9 @@
-namespace CartCommandAPI.Models;
+namespace CartQueryAPI.Models;
 
 public class Cart
 {
     public Guid Id { get; set; }
+    public Guid CartId { get; set; }
     public Guid ProductId { get; set; }
     public String? ProductName { get; set; }
     public String? ImageUrl { get; set; }

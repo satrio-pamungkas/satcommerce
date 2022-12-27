@@ -1,4 +1,4 @@
-namespace CartCommandAPI.Models;
+namespace CartQueryAPI.Models;
 
 public class Product
 {

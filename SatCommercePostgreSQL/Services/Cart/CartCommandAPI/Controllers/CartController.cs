@@ -1,6 +1,5 @@
 using System.Text.Json;
 using CartCommandAPI.Schemas;
-using CartCommandAPI.Models;
 using CartCommandAPI.Producers;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,9 +25,23 @@ public class CartController : ControllerBase
     [HttpPost]
     public IActionResult CreateCart(List<CartRequest> request)
     {
-        string jsonString = JsonSerializer.Serialize(request);
-        this._cartTopicProducer.CreateCart(_cartTopic, jsonString);
-        this._productTopicProducer.UpdateProduct(_productTopic, jsonString);
+        List<CreateCartRequest> payload = new List<CreateCartRequest>();
+        Guid uuid = Guid.NewGuid();
+        foreach (var cartRequest in request)
+        {
+            var newData = new CreateCartRequest
+            {
+                CartId = uuid,
+                ProductId = cartRequest.ProductId,
+                Quantity = cartRequest.Quantity
+            };
+            payload.Add(newData);
+        }
+
+        string cartString = JsonSerializer.Serialize(payload);
+        string productString = JsonSerializer.Serialize(request);
+        this._cartTopicProducer.CreateCart(_cartTopic, cartString);
+        this._productTopicProducer.UpdateProduct(_productTopic, productString);
 
         return Ok(request);
     }

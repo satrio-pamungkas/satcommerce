@@ -1,9 +1,9 @@
-using ProductQueryAPI.Models;
-using ProductQueryAPI.Repositories;
-using ProductQueryAPI.Schemas;
+using CartQueryAPI.Models;
+using CartQueryAPI.Repositories;
+using CartQueryAPI.Schemas;
 using System.Text.Json;
 
-namespace ProductQueryAPI.Handlers;
+namespace CartQueryAPI.Handlers;
 
 public class ProductHandler : IProductHandler
 {
