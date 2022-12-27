@@ -35,15 +35,15 @@ public class ProductTopicConsumer : BackgroundService
                 var handler = scope.ServiceProvider.GetRequiredService<IProductHandler>();
                 var payload = this._consumer.Consume(cancellationToken);
                 var header = payload.Message.Headers[0].Key;
+                var data = payload.Message.Value;
 
                 switch (header)
                 {
                     case "ProductCreated":
-                        var data = payload.Message.Value;
                         handler.CreateProduct(data);
                         break;
                     case "ProductQuantityUpdated":
-                        Console.WriteLine("Updated");
+                        handler.UpdateProductQuantity(data);
                         break;
                 }
             }

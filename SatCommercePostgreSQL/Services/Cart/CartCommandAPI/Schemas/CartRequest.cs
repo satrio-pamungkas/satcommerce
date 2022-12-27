@@ -1,6 +1,6 @@
-namespace ProductQueryAPI.Schemas;
+namespace CartCommandAPI.Schemas;
 
-public class UpdateProductRequest
+public class CartRequest
 {
     public Guid Id { get; set; }
     public int Quantity { get; set; }

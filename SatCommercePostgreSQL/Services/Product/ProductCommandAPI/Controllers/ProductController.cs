@@ -41,7 +41,7 @@ public class ProductController : ControllerBase
             payload.Add(newData);
         }
         string jsonString = JsonSerializer.Serialize(payload);
-        this._productTopicProducer.EmitMessage(this._topic, jsonString);
+        this._productTopicProducer.CreateProduct(this._topic, jsonString);
         
         return Ok(payload);
     }

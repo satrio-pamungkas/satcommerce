@@ -22,7 +22,10 @@ public class ProductHandler : IProductHandler
 
     public void UpdateProductQuantity(string data)
     {
-        UpdateProductRequest product = JsonSerializer.Deserialize<UpdateProductRequest>(data);
-        this._productRepository.UpdateQuantity(product.Id, product.Quantity);
+        List<UpdateProductRequest> product = JsonSerializer.Deserialize<List<UpdateProductRequest>>(data);
+        foreach (var item in product)
+        {
+            this._productRepository.UpdateQuantity(item.Id, item.Quantity);
+        }
     }
 }
