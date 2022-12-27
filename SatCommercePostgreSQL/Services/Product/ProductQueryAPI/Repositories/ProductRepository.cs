@@ -23,7 +23,9 @@ public class ProductRepository : IProductRepository
     {
         var data = this._context.Products.First(a => a.Id == id);
         var previousQuantity = data.Quantity;
+        var previousSold = data.Sold;
         data.Quantity = previousQuantity - quantity;
+        data.Sold = previousSold + quantity;
         this._context.SaveChanges();
     }
 

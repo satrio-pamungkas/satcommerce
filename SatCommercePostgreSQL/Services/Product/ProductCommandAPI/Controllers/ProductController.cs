@@ -30,7 +30,13 @@ public class ProductController : ControllerBase
                 Id = Guid.NewGuid(),
                 Name = productRequest.Name,
                 Price = productRequest.Price,
-                Quantity = productRequest.Quantity
+                Quantity = productRequest.Quantity,
+                Description = productRequest.Description,
+                Brand = productRequest.Brand,
+                Rating = productRequest.Rating,
+                Sold = productRequest.Sold,
+                Weight = productRequest.Weight,
+                ImageUrl = productRequest.ImageUrl
             };
             payload.Add(newData);
         }
