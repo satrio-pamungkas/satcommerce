@@ -13,7 +13,7 @@ public class CartTopicConsumer : BackgroundService
     {
         var consumerConfig = new ConsumerConfig();
         configuration.GetSection("Kafka:ConsumerSettings").Bind(consumerConfig);
-        this._topic = configuration.GetValue<string>("Kafka:Topic:Product");
+        this._topic = configuration.GetValue<string>("Kafka:Topic:Cart");
         this._consumer = new ConsumerBuilder<Ignore, string>(consumerConfig).Build();
         this._serviceScopeFactory = serviceScopeFactory;
     }

@@ -29,11 +29,11 @@ public class ProductRepository : IProductRepository
         this._context.SaveChanges();
     }
 
-    public Product GetById(Guid id)
+    public Product GetBySlug(string slug)
     {
         return this._context.Products
             .AsNoTracking()
-            .SingleOrDefault(p => p.Id == id) ?? throw new InvalidOperationException();
+            .SingleOrDefault(p => p.Slug == slug) ?? throw new InvalidOperationException();
     }
 
     public IEnumerable<Product> GetAll()

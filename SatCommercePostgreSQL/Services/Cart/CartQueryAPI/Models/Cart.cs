@@ -8,6 +8,7 @@ public class Cart
     public String? ProductName { get; set; }
     public String? ImageUrl { get; set; }
     public String? Brand { get; set; }
+    public String? Slug { get; set; }
     public int? Price { get; set; }
     public int? Quantity { get; set; }
     public int? TotalPrice { get; set; }

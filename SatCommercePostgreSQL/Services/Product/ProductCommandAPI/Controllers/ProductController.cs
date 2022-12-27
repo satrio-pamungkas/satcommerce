@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using ProductCommandAPI.Models;
 using ProductCommandAPI.Producers;
 using ProductCommandAPI.Schemas;
+using ProductCommandAPI.Utils;
 using System.Text.Json;
 
 namespace ProductCommandAPI.Controllers;
@@ -25,10 +26,12 @@ public class ProductController : ControllerBase
         List<Product> payload = new List<Product>();
         foreach (var productRequest in request)
         {
+            var uuid = Guid.NewGuid();
             var newData = new Product
             {
-                Id = Guid.NewGuid(),
+                Id = uuid,
                 Name = productRequest.Name,
+                Slug = SlugGenerator.Slug(productRequest.Name!, uuid),
                 Price = productRequest.Price,
                 Quantity = productRequest.Quantity,
                 Description = productRequest.Description,

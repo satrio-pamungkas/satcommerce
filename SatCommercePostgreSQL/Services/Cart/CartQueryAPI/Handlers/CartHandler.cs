@@ -30,6 +30,7 @@ public class CartHandler : ICartHandler
                 CartId = item.CartId,
                 ProductId = item.ProductId,
                 Brand = product.Brand,
+                Slug = product.Slug,
                 Price = product.Price,
                 Quantity = product.Quantity,
                 ImageUrl = product.ImageUrl,
