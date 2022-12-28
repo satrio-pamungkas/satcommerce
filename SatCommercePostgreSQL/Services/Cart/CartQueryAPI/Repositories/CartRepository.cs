@@ -19,15 +19,19 @@ public class CartRepository : ICartRepository
         this._context.SaveChanges();
     }
 
-    public void DeleteSpecific(Guid id)
+    public void DeleteSpecific(List<Cart> data)
     {
-        var cart = new Cart {Id = id};
-        this._context.Carts.Remove(cart);
+        this._context.Carts.RemoveRange(data);
         this._context.SaveChanges();
     }
 
     public IEnumerable<Cart> GetAll()
     {
         return this._context.Carts.AsNoTracking().ToList();
+    }
+
+    public IEnumerable<Cart> GetAllSpecific(Guid id)
+    {
+        return this._context.Carts.AsQueryable().Where(p => p.CartId == id).ToList();
     }
 }

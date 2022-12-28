@@ -46,6 +46,7 @@ public class CartHandler : ICartHandler
     public void DeleteSpecificCart(string data)
     {
         DeleteCartRequest request = JsonSerializer.Deserialize<DeleteCartRequest>(data);
-        this._cartRepository.DeleteSpecific(request.CartId);
+        var payload = this._cartRepository.GetAllSpecific(request.CartId).ToList();
+        this._cartRepository.DeleteSpecific(payload);
     }
 }

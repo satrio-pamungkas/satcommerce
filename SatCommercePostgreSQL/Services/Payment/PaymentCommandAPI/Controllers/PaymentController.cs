@@ -46,16 +46,16 @@ public class PaymentController : ControllerBase
         return Ok(payload);
     }
 
-    [HttpPost("{id}")]
-    public IActionResult SendPayment(string id)
+    [HttpPost("Cart")]
+    public IActionResult SendPayment(MakePaymentRequest request)
     {
-        var payload = new DeleteCartRequest {CartId = new Guid(id)};
+        var payload = new DeleteCartRequest {CartId = request.CartId};
         string jsonString = JsonSerializer.Serialize(payload);
         this._cartTopicProducer.DeleteCart(this._cartTopic,jsonString);
 
         var response = new SuccessResponse
         {
-            CartId = new Guid(id),
+            CartId = request.CartId,
             Description = "Payment is success",
             Valid = true
         };
