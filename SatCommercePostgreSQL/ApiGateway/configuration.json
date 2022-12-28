@@ -1,0 +1,115 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:6001"
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/product",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/product",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7291
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/product",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/product",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7084
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/product/{slug}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/product/{slug}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7084
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/cart",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/cart",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7082
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/cart",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/cart",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7109
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/payment",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7195
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamPathTemplate": "/payment",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7195
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment/cart",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/payment/cart",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7195
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/payment",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7191
+        }
+      ]
+    }
+  ]
+}
