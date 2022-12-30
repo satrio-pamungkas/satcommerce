@@ -37,13 +37,20 @@ public class CartController : ControllerBase
             };
             payload.Add(newData);
         }
-
+        
         string cartString = JsonSerializer.Serialize(payload);
         string productString = JsonSerializer.Serialize(request);
         this._cartTopicProducer.CreateCart(_cartTopic, cartString);
         this._productTopicProducer.UpdateProduct(_productTopic, productString);
 
         return Ok(request);
+    }
+
+    [HttpDelete("{id}")]
+    public IActionResult DeleteSpecificCart(string id)
+    {
+        this._cartTopicProducer.DeleteSpecificCart(_cartTopic, id);
+        return Ok();
     }
 
 }

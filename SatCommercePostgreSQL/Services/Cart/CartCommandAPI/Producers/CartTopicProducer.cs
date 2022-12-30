@@ -23,4 +23,15 @@ public class CartTopicProducer
             Value = payload
         });
     }
+
+    public void DeleteSpecificCart(string topic, string payload)
+    {
+        var headers = new Headers();
+        headers.Add("CartDeleted", new byte[] { 100 });
+        this._producer.ProduceAsync(topic, new Message<Null, string>
+        {
+            Headers = headers,
+            Value = payload
+        });
+    }
 }

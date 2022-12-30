@@ -1,6 +1,6 @@
 using Confluent.Kafka;
 
-namespace ProductCommandAPI.Producers;
+namespace CartQueryAPI.Producers;
 
 public class ProductTopicProducer
 {
@@ -13,10 +13,10 @@ public class ProductTopicProducer
         this._producer = new ProducerBuilder<Null, string>(producerConfig).Build();
     }
     
-    public void CreateProduct(string topic, string payload)
+    public void UpdateProductQuantity(string topic, string payload)
     {
         var headers = new Headers();
-        headers.Add("ProductCreated", new byte[] { 100 });
+        headers.Add("ProductQuantityUpdateCancelled", new byte[] { 100 });
         this._producer.ProduceAsync(topic, new Message<Null, string>
         {
             Headers = headers,
@@ -24,10 +24,10 @@ public class ProductTopicProducer
         });
     }
 
-    public void DeleteProduct(string topic, string payload)
+    public void UpdateProductSold(string topic, string payload)
     {
         var headers = new Headers();
-        headers.Add("ProductDeleted", new byte[] { 100 });
+        headers.Add("ProductSoldUpdated", new byte[] { 100 });
         this._producer.ProduceAsync(topic, new Message<Null, string>
         {
             Headers = headers,

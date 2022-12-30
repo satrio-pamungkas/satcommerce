@@ -48,4 +48,19 @@ public class ProductController : ControllerBase
         
         return Ok(payload);
     }
+
+    [HttpDelete]
+    [Route("{id}")]
+    public IActionResult DeleteProduct(string id)
+    {
+        if (id.Length == 36)
+        {
+            this._productTopicProducer.DeleteProduct(this._topic, id);
+            return Ok();
+        }
+        else
+        {
+            return BadRequest();
+        }
+    }
 }
