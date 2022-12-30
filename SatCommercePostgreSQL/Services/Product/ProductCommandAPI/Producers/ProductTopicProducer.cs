@@ -23,4 +23,15 @@ public class ProductTopicProducer
             Value = payload
         });
     }
+
+    public void DeleteProduct(string topic, string payload)
+    {
+        var headers = new Headers();
+        headers.Add("ProductDeleted", new byte[] { 100 });
+        this._producer.ProduceAsync(topic, new Message<Null, string>
+        {
+            Headers = headers,
+            Value = payload
+        });
+    }
 }

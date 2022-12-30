@@ -46,4 +46,10 @@ public class ProductHandler : IProductHandler
             this._productRepository.UpdateSold(item.ProductId, item.Quantity);
         }
     }
+
+    public void DeleteProduct(string data)
+    {
+        var uuid = new Guid(data);
+        this._productRepository.Delete(uuid);
+    }
 }

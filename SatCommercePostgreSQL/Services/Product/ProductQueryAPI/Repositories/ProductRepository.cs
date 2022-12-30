@@ -23,7 +23,7 @@ public class ProductRepository : IProductRepository
     {
         var data = this._context.Products.First(a => a.Id == id);
         var previousQuantity = data.Quantity;
-        if (isUndo == true)
+        if (isUndo)
             data.Quantity = previousQuantity + quantity;
         else
             data.Quantity = previousQuantity - quantity;
@@ -36,6 +36,13 @@ public class ProductRepository : IProductRepository
         var data = this._context.Products.First(a => a.Id == id);
         var previousSold = data.Sold;
         data.Sold = previousSold + quantity;
+        this._context.SaveChanges();
+    }
+
+    public void Delete(Guid id)
+    {
+        var data = this._context.Products.First(a => a.Id == id);
+        this._context.Products.Remove(data);
         this._context.SaveChanges();
     }
 

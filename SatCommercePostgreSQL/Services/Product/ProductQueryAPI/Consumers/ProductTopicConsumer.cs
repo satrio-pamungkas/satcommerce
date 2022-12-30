@@ -51,6 +51,9 @@ public class ProductTopicConsumer : BackgroundService
                     case "ProductSoldUpdated":
                         handler.UpdateProductSold(data);
                         break;
+                    case "ProductDeleted":
+                        handler.DeleteProduct(data);
+                        break;
                 }
             }
             catch (OperationCanceledException)
