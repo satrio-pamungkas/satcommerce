@@ -2,27 +2,34 @@ using System.Text.Json;
 using CartQueryAPI.Repositories;
 using CartQueryAPI.Models;
 using CartQueryAPI.Schemas;
+using CartQueryAPI.Producers;
 
 namespace CartQueryAPI.Handlers;
 
 public class CartHandler : ICartHandler
 {
+    private readonly ProductTopicProducer _productTopicProducer;
     private readonly ICartRepository _cartRepository;
     private readonly IProductRepository _productRepository;
+    private readonly string _productTopic;
 
-    public CartHandler(ICartRepository cartRepository, IProductRepository productRepository)
+    public CartHandler(
+        ICartRepository cartRepository, 
+        IProductRepository productRepository, 
+        IConfiguration configuration)
     {
         this._cartRepository = cartRepository;
         this._productRepository = productRepository;
+        this._productTopicProducer = new ProductTopicProducer(configuration);
+        this._productTopic = this._productTopic = configuration.GetValue<string>("Kafka:Topic:Product");
     }
 
     public void CreateCart(string data)
     {
-        List<CreateCartRequest> payload = JsonSerializer.Deserialize<List<CreateCartRequest>>(data);
-        Console.WriteLine(payload[0].Quantity);
+        List<CreateCartRequest>? payload = JsonSerializer.Deserialize<List<CreateCartRequest>>(data);
         List<Cart> carts = new List<Cart>();
         
-        foreach (var item in payload)
+        foreach (var item in payload!)
         {
             Product product = this._productRepository.GetById(item.ProductId);
             var newData = new Cart
@@ -41,25 +48,53 @@ public class CartHandler : ICartHandler
             carts.Add(newData);
         }
         
-        Console.WriteLine(carts[0].Quantity);
         this._cartRepository.Create(carts);
     }
 
     public void DeleteSpecificCart(string data)
     {
-        Guid uuid;
+        List<Cart> payload;
+        
+        // Deleted manually
         if (data.Length == 36)
         {
-            Console.WriteLine("It deleted manually");
-            uuid = new Guid(data);
+            Guid uuid = new Guid(data);
+            payload = this._cartRepository.GetAllSpecific(uuid).ToList();
+            List<UpdateProductRequest> newProduct = new List<UpdateProductRequest>();
+            foreach (var item in payload)
+            {
+                var newData = new UpdateProductRequest
+                {
+                    ProductId = item.ProductId,
+                    Quantity = item.Quantity
+                };
+                newProduct.Add(newData);
+            }
+
+            string jsonString = JsonSerializer.Serialize(newProduct);
+            this._productTopicProducer.UpdateProductQuantity(_productTopic, jsonString);
+            
         }
+        // Deleted by payment trigger
         else
         {
-            DeleteCartRequest request = JsonSerializer.Deserialize<DeleteCartRequest>(data);
-            uuid = request!.CartId;
+            DeleteCartRequest? request = JsonSerializer.Deserialize<DeleteCartRequest>(data);
+            payload = this._cartRepository.GetAllSpecific(request!.CartId).ToList();
+            List<UpdateProductRequest> newProduct = new List<UpdateProductRequest>();
+            foreach (var item in payload)
+            {
+                var newData = new UpdateProductRequest
+                {
+                    ProductId = item.ProductId,
+                    Quantity = item.Quantity
+                };
+                newProduct.Add(newData);
+            }
+            
+            string jsonString = JsonSerializer.Serialize(newProduct);
+            this._productTopicProducer.UpdateProductSold(_productTopic, jsonString);
         }
         
-        var payload = this._cartRepository.GetAllSpecific(uuid).ToList();
         this._cartRepository.DeleteSpecific(payload);
     }
 }

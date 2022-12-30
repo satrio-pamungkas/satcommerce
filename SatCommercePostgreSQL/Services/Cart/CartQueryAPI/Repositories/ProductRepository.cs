@@ -19,12 +19,22 @@ public class ProductRepository : IProductRepository
         this._context.SaveChanges();
     }
 
-    public void UpdateQuantity(Guid id, int quantity)
+    public void UpdateQuantity(Guid id, int quantity, bool isUndo)
     {
         var data = this._context.Products.First(a => a.Id == id);
         var previousQuantity = data.Quantity;
+        if (isUndo == true)
+            data.Quantity = previousQuantity + quantity;
+        else
+            data.Quantity = previousQuantity - quantity;
+        
+        this._context.SaveChanges();
+    }
+
+    public void UpdateSold(Guid id, int quantity)
+    {
+        var data = this._context.Products.First(a => a.Id == id);
         var previousSold = data.Sold;
-        data.Quantity = previousQuantity - quantity;
         data.Sold = previousSold + quantity;
         this._context.SaveChanges();
     }

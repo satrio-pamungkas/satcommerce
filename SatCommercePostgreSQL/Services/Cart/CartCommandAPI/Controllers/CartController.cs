@@ -38,7 +38,6 @@ public class CartController : ControllerBase
             payload.Add(newData);
         }
         
-        Console.WriteLine(payload[0].Quantity);
         string cartString = JsonSerializer.Serialize(payload);
         string productString = JsonSerializer.Serialize(request);
         this._cartTopicProducer.CreateCart(_cartTopic, cartString);

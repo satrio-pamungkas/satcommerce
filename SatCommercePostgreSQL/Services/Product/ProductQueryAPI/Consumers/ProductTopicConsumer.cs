@@ -45,6 +45,12 @@ public class ProductTopicConsumer : BackgroundService
                     case "ProductQuantityUpdated":
                         handler.UpdateProductQuantity(data);
                         break;
+                    case "ProductQuantityUpdateCancelled":
+                        handler.CancelUpdateProductQuantity(data);
+                        break;
+                    case "ProductSoldUpdated":
+                        handler.UpdateProductSold(data);
+                        break;
                 }
             }
             catch (OperationCanceledException)
