@@ -19,6 +19,7 @@ public class CartHandler : ICartHandler
     public void CreateCart(string data)
     {
         List<CreateCartRequest> payload = JsonSerializer.Deserialize<List<CreateCartRequest>>(data);
+        Console.WriteLine(payload[0].Quantity);
         List<Cart> carts = new List<Cart>();
         
         foreach (var item in payload)
@@ -32,14 +33,15 @@ public class CartHandler : ICartHandler
                 Brand = product.Brand,
                 Slug = product.Slug,
                 Price = product.Price,
-                Quantity = product.Quantity,
+                Quantity = item.Quantity,
                 ImageUrl = product.ImageUrl,
                 ProductName = product.Name,
-                TotalPrice = product.Price * product.Quantity
+                TotalPrice = product.Price * item.Quantity
             };
             carts.Add(newData);
         }
         
+        Console.WriteLine(carts[0].Quantity);
         this._cartRepository.Create(carts);
     }
 
