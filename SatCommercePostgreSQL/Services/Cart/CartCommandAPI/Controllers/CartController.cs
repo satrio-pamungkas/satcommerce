@@ -47,4 +47,11 @@ public class CartController : ControllerBase
         return Ok(request);
     }
 
+    [HttpDelete("{id}")]
+    public IActionResult DeleteSpecificCart(string id)
+    {
+        this._cartTopicProducer.DeleteSpecificCart(_cartTopic, id);
+        return Ok();
+    }
+
 }

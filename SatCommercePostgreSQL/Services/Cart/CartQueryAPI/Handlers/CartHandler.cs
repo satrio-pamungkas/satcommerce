@@ -47,8 +47,19 @@ public class CartHandler : ICartHandler
 
     public void DeleteSpecificCart(string data)
     {
-        DeleteCartRequest request = JsonSerializer.Deserialize<DeleteCartRequest>(data);
-        var payload = this._cartRepository.GetAllSpecific(request.CartId).ToList();
+        Guid uuid;
+        if (data.Length == 36)
+        {
+            Console.WriteLine("It deleted manually");
+            uuid = new Guid(data);
+        }
+        else
+        {
+            DeleteCartRequest request = JsonSerializer.Deserialize<DeleteCartRequest>(data);
+            uuid = request!.CartId;
+        }
+        
+        var payload = this._cartRepository.GetAllSpecific(uuid).ToList();
         this._cartRepository.DeleteSpecific(payload);
     }
 }
