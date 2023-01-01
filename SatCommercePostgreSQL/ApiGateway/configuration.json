@@ -1,17 +1,17 @@
 {
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:6001"
+    "BaseUrl": "http://localhost:80"
   },
   "Routes": [
     {
       "UpstreamPathTemplate": "/product",
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamPathTemplate": "/product",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [ 
         {
-          "Host": "localhost",
-          "Port": 7291
+          "Host": "host.docker.internal",
+          "Port": 9001
         }
       ]
     },
@@ -19,11 +19,11 @@
       "UpstreamPathTemplate": "/product",
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamPathTemplate": "/product",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7084
+          "Host": "host.docker.internal",
+          "Port": 9002
         }
       ]
     },
@@ -31,11 +31,23 @@
       "UpstreamPathTemplate": "/product/{slug}",
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamPathTemplate": "/product/{slug}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7084
+          "Host": "host.docker.internal",
+          "Port": 9002
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/product/{slug}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamPathTemplate": "/product/{slug}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "host.docker.internal",
+          "Port": 9001
         }
       ]
     },
@@ -43,11 +55,11 @@
       "UpstreamPathTemplate": "/cart",
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamPathTemplate": "/cart",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7082
+          "Host": "host.docker.internal",
+          "Port": 9003
         }
       ]
     },
@@ -55,11 +67,23 @@
       "UpstreamPathTemplate": "/cart",
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamPathTemplate": "/cart",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7109
+          "Host": "host.docker.internal",
+          "Port": 9004
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/cart/{slug}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamPathTemplate": "/cart/{slug}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "host.docker.internal",
+          "Port": 9003
         }
       ]
     },
@@ -67,11 +91,11 @@
       "UpstreamPathTemplate": "/payment",
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamPathTemplate": "/payment",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7195
+          "Host": "host.docker.internal",
+          "Port": 9005
         }
       ]
     },
@@ -79,11 +103,11 @@
       "UpstreamPathTemplate": "/payment",
       "UpstreamHttpMethod": [ "Delete" ],
       "DownstreamPathTemplate": "/payment",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7195
+          "Host": "host.docker.internal",
+          "Port": 9005
         }
       ]
     },
@@ -91,11 +115,11 @@
       "UpstreamPathTemplate": "/payment/cart",
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamPathTemplate": "/payment/cart",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7195
+          "Host": "host.docker.internal",
+          "Port": 9005
         }
       ]
     },
@@ -103,11 +127,11 @@
       "UpstreamPathTemplate": "/payment",
       "UpstreamHttpMethod": [ "Get" ],
       "DownstreamPathTemplate": "/payment",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7191
+          "Host": "host.docker.internal",
+          "Port": 9006
         }
       ]
     }
