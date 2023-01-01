@@ -1,0 +1,222 @@
+[
+  {
+    "name": "White Casual Sneaker",
+    "description": "Concept 3 by Skechers Issel Lace-up Casual Sneaker",
+    "imageUrl": "https://m.media-amazon.com/images/I/81svzHPcn7L.jpg",
+    "brand": "Skechers",
+    "weight": 500,
+    "sold": 12,
+    "rating": 4,
+    "price": 250000,
+    "quantity": 132
+  },
+  {
+    "name": "Gray Suitcase",
+    "description": "AmazonBasics - Maleta de mano ligera para cabina, color gris oscuro",
+    "imageUrl": "https://m.media-amazon.com/images/I/81fx0Z6ByML.jpg",
+    "brand": "Amazon Basics",
+    "weight": 3000,
+    "sold": 4,
+    "rating": 4,
+    "price": 1320000,
+    "quantity": 54
+  },
+  {
+    "name": "Pet Food",
+    "description": "Amazon Brand – Wag Dry Dog Food, Salmon and Brown Rice, 5 lb Bag",
+    "imageUrl": "https://m.media-amazon.com/images/I/71AvEqe4msL.jpg",
+    "brand": "Amazon",
+    "weight": 2500,
+    "sold": 21,
+    "rating": 4,
+    "price": 50000,
+    "quantity": 1200
+  },
+  {
+    "name": "Blue Gaming Chair",
+    "description": "UMI. Essentials - Sedia ergonomica da Gioco, con poggiapiedi Imbottito, Colore: Blu",
+    "imageUrl": "https://m.media-amazon.com/images/I/415Ps5mQf+L.jpg",
+    "brand": "UMI",
+    "weight": 3000,
+    "sold": 3,
+    "rating": 4,
+    "price": 1450000,
+    "quantity": 21
+  },
+  {
+    "name": "Backpack",
+    "description": "Amazon Basics – Mochila para cámara DSLR (poliéster 840D de Alta Densidad, Resistente al Agua) – Gris Ceniza",
+    "imageUrl": "https://m.media-amazon.com/images/I/A1SjdZpIg2L.jpg",
+    "brand": "Amazon Basics",
+    "weight": 500,
+    "sold": 24,
+    "rating": 4,
+    "price": 350000,
+    "quantity": 52
+  },
+  {
+    "name": "Multi-Purpose Cleaner",
+    "description": "Amazon Commercial Multi-Purpose Peroxide Cleaner, Concentrate, 1-Gallon, 1-Pack",
+    "imageUrl": "https://m.media-amazon.com/images/I/51l+engr3RL.jpg",
+    "brand": "Amazon",
+    "weight": 3500,
+    "sold": 4,
+    "rating": 3,
+    "price": 250000,
+    "quantity": 32
+  },
+  {
+    "name": "Digital Multimeter",
+    "description": "Amazon Commercial Commercial 2000 Count Manual Ranging Digital Multimeter",
+    "imageUrl": "https://m.media-amazon.com/images/I/81D8y9r4jHL.jpg",
+    "brand": "Amazon",
+    "weight": 340,
+    "sold": 8,
+    "rating": 4,
+    "price": 50000,
+    "quantity": 46
+  },
+  {
+    "name": "Pet Carrier",
+    "description": "Amazon Basics Pet Carrier Kennel With Metal Wire Ventilation,23-Inch",
+    "imageUrl": "https://m.media-amazon.com/images/I/813D6acTpRL.jpg",
+    "brand": "Amazon",
+    "weight": 1000,
+    "sold": 3,
+    "rating": 3,
+    "price": 370000,
+    "quantity": 32
+  },
+  {
+    "name": "Stainless Steel Frying Pan",
+    "description": "Amazon Commercial 30 cm Stainless Steel Aluminium-Clad Frying Pan with Helper Handle",
+    "imageUrl": "https://m.media-amazon.com/images/I/71cs-lQf6OL.jpg",
+    "brand": "Amazon",
+    "weight": 600,
+    "sold": 14,
+    "rating": 4,
+    "price": 175000,
+    "quantity": 46
+  },
+  {
+    "name": "Fabric Chair",
+    "description": "Stone & Beam Clayton Modern Clayton Living Room Chair Fabric",
+    "imageUrl": "https://m.media-amazon.com/images/I/81CicEeqFoL.jpg",
+    "brand": "Stone & Beam",
+    "weight": 3600,
+    "sold": 16,
+    "rating": 4,
+    "price": 1500000,
+    "quantity": 42
+  },
+  {
+    "name": "Cilantaro Rice",
+    "description": "Cilantro Rice with Black Beans, 12 oz",
+    "imageUrl": "https://m.media-amazon.com/images/I/71xKy3c17NL.jpg",
+    "brand": "Amazon Kitchen",
+    "weight": 350,
+    "sold": 13,
+    "rating": 4,
+    "price": 32000,
+    "quantity": 1432
+  },
+  {
+    "name": "Blend & Go Smoothie Blender",
+    "description": "Amazon Basics Blend & Go Smoothie Blender, 600 ml, 600 W 600 ml, 600 W zwart",
+    "imageUrl": "https://m.media-amazon.com/images/I/71f-hmopL8L.jpg",
+    "brand": "Amazon Basics",
+    "weight": 1000,
+    "sold": 23,
+    "rating": 5,
+    "price": 450000,
+    "quantity": 32
+  },
+  {
+    "name": "Citrus & Lavender Disinfectan",
+    "description": "Amazon Brand - Presto! Disinfectant Surface Cleaner, Pack of 2 - 975 ml (Citrus & Lavender)",
+    "imageUrl": "https://m.media-amazon.com/images/I/71VL-NwnK8L.jpg",
+    "brand": "Presto",
+    "weight": 1200,
+    "sold": 32,
+    "rating": 4,
+    "price": 135000,
+    "quantity": 54
+  },
+  {
+    "name": "Thermoplastic Filament",
+    "description": "Amazon Basics PLA 3D Printer Filament, 1.75mm, Neon Green, 1 kg Spool",
+    "imageUrl": "https://m.media-amazon.com/images/I/91q3DDlqKNL.jpg",
+    "brand": "Amazon Basics",
+    "weight": 1000,
+    "sold": 12,
+    "rating": 4,
+    "price": 100000,
+    "quantity": 32
+  },
+  {
+    "name": "Composition Notebook 4-Pack",
+    "description": "Amazon Basics Wide Ruled Composition Notebook, 100-Sheet, Assorted Solid Colors, 4-Pack",
+    "imageUrl": "https://m.media-amazon.com/images/I/71FBwRSRcTL.jpg",
+    "brand": "Amazon Basics",
+    "weight": 1600,
+    "sold": 52,
+    "rating": 5,
+    "price": 120000,
+    "quantity": 52
+  },
+  {
+    "name": "Amazon Cap Gear",
+    "description": "Amazon Gear Pro Wool Flex Fit Hat, Black, X-Small/Small",
+    "imageUrl": "https://m.media-amazon.com/images/I/91Wweqjop7L.jpg",
+    "brand": "Amazon",
+    "weight": 200,
+    "sold": 32,
+    "rating": 4,
+    "price": 75000,
+    "quantity": 123
+  },
+  {
+    "name": "Cream Style Corn",
+    "description": "Amazon Brand - Happy Belly Cream Style Corn, 15 Ounce",
+    "imageUrl": "https://m.media-amazon.com/images/I/71TR1oboZbL.jpg",
+    "brand": "Amazon",
+    "weight": 425,
+    "sold": 23,
+    "rating": 4,
+    "price": 50000,
+    "quantity": 213
+  },
+  {
+    "name": "USB Wall Charger",
+    "description": "Amazon Basics One-Port USB Wall Charger (2.4 Amp) - White (EU version)",
+    "imageUrl": "https://m.media-amazon.com/images/I/61VXRGS-NKL.jpg",
+    "brand": "Amazon Basics",
+    "weight": 200,
+    "sold": 32,
+    "rating": 4,
+    "price": 56000,
+    "quantity": 423
+  },
+  {
+    "name": "Pail & Mop Bucket",
+    "description": "Amazon Commercial Pail and Mop Strainer Combo With Dirt Filter, 17-Quart, Yellow - 3-Pack",
+    "imageUrl": "https://m.media-amazon.com/images/I/71iWruBxYVL.jpg",
+    "brand": "Amazon",
+    "weight": 300,
+    "sold": 23,
+    "rating": 5,
+    "price": 75000,
+    "quantity": 124
+  },
+  {
+    "name": "Digital Tire Pressure Gauge",
+    "description": "Amazon Basics Digital Tire Pressure Gauge - Red, 3-Pack",
+    "imageUrl": "https://m.media-amazon.com/images/I/71V57qnwguL.jpg",
+    "brand": "Amazon Basics",
+    "weight": 500,
+    "sold": 52,
+    "rating": 5,
+    "price": 250000,
+    "quantity": 242
+  }
+]
