@@ -8,9 +8,122 @@ services:
     image: wurstmeister/kafka
     ports:
       - "9092:9092"
+    expose:
+      - "29092"
     environment:
-      KAFKA_ADVERTISED_HOST_NAME: 127.0.0.1
       KAFKA_CREATE_TOPICS: "product:1:1,cart:1:1,payment:1:1"
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENERS: INSIDE://:29092,OUTSIDE://:9092
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+  db-product:
+    image: postgres:12-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - '5450:5432'
+    volumes:
+      - db-product-data:/var/lib/postgresql/data
+      - ./Sql/satcommerce_product.sql:/docker-entrypoint-initdb.d/satcommerce_product.sql
+  db-cart:
+    image: postgres:12-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - '5451:5432'
+    volumes:
+      - db-cart-data:/var/lib/postgresql/data
+      - ./Sql/satcommerce_cart.sql:/docker-entrypoint-initdb.d/satcommerce_cart.sql
+  db-payment:
+    image: postgres:12-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - '5452:5432'
+    volumes:
+      - db-payment-data:/var/lib/postgresql/data
+      - ./Sql/satcommerce_payment.sql:/docker-entrypoint-initdb.d/satcommerce_payment.sql
+  product-command:
+    build:
+      context: ./Services/Product/ProductCommandAPI
+    ports:
+      - '9001:80'
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  product-query:
+    build:
+      context: ./Services/Product/ProductQueryAPI
+    ports:
+      - '9002:80'
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  cart-command:
+    build:
+      context: ./Services/Cart/CartCommandAPI
+    ports:
+      - '9003:80'
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  cart-query:
+    build:
+      context: ./Services/Cart/CartQueryAPI
+    ports:
+      - '9004:80'
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  payment-command:
+    build:
+      context: ./Services/Payment/PaymentCommandAPI
+    ports:
+      - '9005:80'
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  payment-query:
+    build:
+      context: ./Services/Payment/PaymentQueryAPI
+    ports:
+      - '9006:80'
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  api-gateway:
+    build:
+      context: ./ApiGateway
+    ports:
+      - '5001:80'
+    depends_on:
+      - product-command
+      - product-query
+      - cart-command
+      - cart-query
+      - payment-command
+      - payment-query
+volumes:
+  db-product-data:
+    driver: local
+  db-payment-data:
+    driver: local
+  db-cart-data:
+    driver: local
+
+    
