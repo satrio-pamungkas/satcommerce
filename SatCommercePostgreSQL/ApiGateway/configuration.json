@@ -10,8 +10,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [ 
         {
-          "Host": "host.docker.internal",
-          "Port": 9001
+          "Host": "product-command",
+          "Port": 80
         }
       ]
     },
@@ -22,8 +22,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "host.docker.internal",
-          "Port": 9002
+          "Host": "product-query",
+          "Port": 80
         }
       ]
     },
@@ -34,8 +34,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "host.docker.internal",
-          "Port": 9002
+          "Host": "product-query",
+          "Port": 80
         }
       ]
     },
@@ -46,8 +46,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "host.docker.internal",
-          "Port": 9001
+          "Host": "product-command",
+          "Port": 80
         }
       ]
     },
@@ -58,8 +58,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "host.docker.internal",
-          "Port": 9003
+          "Host": "cart-command",
+          "Port": 80
         }
       ]
     },
@@ -70,8 +70,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "host.docker.internal",
-          "Port": 9004
+          "Host": "cart-query",
+          "Port": 80
         }
       ]
     },
@@ -82,8 +82,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "host.docker.internal",
-          "Port": 9003
+          "Host": "cart-command",
+          "Port": 80
         }
       ]
     },
@@ -94,8 +94,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "host.docker.internal",
-          "Port": 9005
+          "Host": "payment-command",
+          "Port": 80
         }
       ]
     },
@@ -106,8 +106,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "host.docker.internal",
-          "Port": 9005
+          "Host": "payment-command",
+          "Port": 80
         }
       ]
     },
@@ -118,8 +118,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "host.docker.internal",
-          "Port": 9005
+          "Host": "payment-command",
+          "Port": 80
         }
       ]
     },
@@ -130,8 +130,8 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "host.docker.internal",
-          "Port": 9006
+          "Host": "payment-query",
+          "Port": 80
         }
       ]
     }
