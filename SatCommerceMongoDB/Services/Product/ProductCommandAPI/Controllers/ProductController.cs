@@ -52,7 +52,7 @@ public class ProductController : ControllerBase
     [Route("{id}")]
     public IActionResult DeleteProduct(string id)
     {
-        if (id.Length == 36)
+        if (id.Length == 24)
         {
             this._productTopicProducer.DeleteProduct(this._topic, id);
             return Ok();
