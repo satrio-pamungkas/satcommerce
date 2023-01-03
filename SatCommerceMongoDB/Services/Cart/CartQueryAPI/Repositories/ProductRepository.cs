@@ -1,9 +1,9 @@
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using ProductQueryAPI.Configurations;
-using ProductQueryAPI.Models;
+using CartQueryAPI.Models;
+using CartQueryAPI.Configurations;
 
-namespace ProductQueryAPI.Repositories;
+namespace CartQueryAPI.Repositories;
 
 public class ProductRepository : IProductRepository
 {
@@ -15,8 +15,7 @@ public class ProductRepository : IProductRepository
             databaseSettings.Value.ConnectionString);
         var mongoDatabase = mongoClient.GetDatabase(
             databaseSettings.Value.DatabaseName);
-        this._productCollection = mongoDatabase.GetCollection<Product>(
-            databaseSettings.Value.CollectionName);
+        this._productCollection = mongoDatabase.GetCollection<Product>("Products");
     }
 
     public void Create(List<Product> data)
@@ -27,8 +26,8 @@ public class ProductRepository : IProductRepository
     public void UpdateQuantity(string id, int quantity, bool isUndo)
     {
         var data = this._productCollection
-            .Find(a => a.Id == id).FirstOrDefault();
-        int newQuantity;
+            .Find(x => x.Id == id).FirstOrDefault();
+        int newQuantity ;
         if (isUndo)
         {
             newQuantity = data.Quantity + quantity;
@@ -48,7 +47,7 @@ public class ProductRepository : IProductRepository
     public void UpdateSold(string id, int quantity)
     {
         var data = this._productCollection
-            .Find(a => a.Id == id).FirstOrDefault();
+            .Find(x => x.Id == id).FirstOrDefault();
         var previousSold = data.Sold;
         var newSold = previousSold + quantity;
         
@@ -64,9 +63,9 @@ public class ProductRepository : IProductRepository
         this._productCollection.DeleteOne(x => x.Id == id);
     }
 
-    public Product GetBySlug(string slug)
+    public Product GetById(string id)
     {
-        return this._productCollection.Find(x => x.Slug == slug).FirstOrDefault();
+        return this._productCollection.Find(x => x.Id == id).FirstOrDefault();
     }
 
     public IEnumerable<Product> GetAll()
