@@ -4,6 +4,7 @@ using ProductCommandAPI.Producers;
 using ProductCommandAPI.Schemas;
 using ProductCommandAPI.Utils;
 using System.Text.Json;
+using MongoDB.Bson;
 
 namespace ProductCommandAPI.Controllers;
 
@@ -29,6 +30,7 @@ public class ProductController : ControllerBase
             var uuid = Guid.NewGuid();
             var newData = new Product
             {
+                Id = ObjectId.GenerateNewId().ToString(),
                 Name = productRequest.Name,
                 Slug = SlugGenerator.Slug(productRequest.Name!, uuid),
                 Price = productRequest.Price,

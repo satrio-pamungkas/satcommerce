@@ -2,6 +2,7 @@ using System.Text.Json;
 using CartCommandAPI.Schemas;
 using CartCommandAPI.Producers;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
 
 namespace CartCommandAPI.Controllers;
 
@@ -25,11 +26,13 @@ public class CartController : ControllerBase
     [HttpPost]
     public IActionResult CreateCart(List<CartRequest> request)
     {
-        List<CartRequest> payload = new List<CartRequest>();
+        List<CreateCartRequest> payload = new List<CreateCartRequest>();
+        String cartId = ObjectId.GenerateNewId().ToString();
         foreach (var cartRequest in request)
         {
-            var newData = new CartRequest
+            var newData = new CreateCartRequest()
             {
+                CartId = cartId,
                 ProductId = cartRequest.ProductId,
                 Quantity = cartRequest.Quantity
             };
