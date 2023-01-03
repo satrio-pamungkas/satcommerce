@@ -72,7 +72,7 @@ public class CartHandler : ICartHandler
 
             string jsonString = JsonSerializer.Serialize(newProduct);
             this._productTopicProducer.UpdateProductQuantity(_productTopic, jsonString);
-            
+            this._cartRepository.DeleteSpecific(data);
         }
         // Deleted by payment trigger
         else
@@ -92,8 +92,7 @@ public class CartHandler : ICartHandler
             
             string jsonString = JsonSerializer.Serialize(newProduct);
             this._productTopicProducer.UpdateProductSold(_productTopic, jsonString);
+            this._cartRepository.DeleteSpecific(request?.CartId!);
         }
-
-        this._cartRepository.DeleteSpecific(data);
     }
 }

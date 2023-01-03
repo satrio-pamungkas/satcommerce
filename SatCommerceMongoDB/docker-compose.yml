@@ -1,0 +1,140 @@
+version: '3'
+services:
+  zookeeper:
+    image: wurstmeister/zookeeper
+    ports:
+      - "2181:2181"
+  kafka:
+    image: wurstmeister/kafka
+    ports:
+      - "9092:9092"
+    expose:
+      - "29092"
+    environment:
+      KAFKA_CREATE_TOPICS: "product:1:1,cart:1:1,payment:1:1"
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENERS: INSIDE://:29092,OUTSIDE://:9092
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+  db-product:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: SatCommerceProduct
+    ports:
+      - '27020:27017'
+    volumes:
+      - db-product-data:/data/db
+  db-cart:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: SatCommerceCart
+    ports:
+      - '27021:27017'
+    volumes:
+      - db-cart-data:/data/db
+  db-payment:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: SatCommercePayment
+    ports:
+      - '27022:27017'
+    volumes:
+      - db-payment-data:/data/db
+  db-seeder:
+    build:
+      context: ./Seeds
+      dockerfile: Dockerfile
+      args:
+        - DB_PRODUCT_URI=mongodb://db-product:27017/SatCommerceProduct?authSource=admin
+        - DB_PAYMENT_URI=mongodb://db-payment:27017/SatCommercePayment?authSource=admin
+        - DB_CART_URI=mongodb://db-cart:27017/SatCommerceCart?authSource=admin
+        - USERNAME=admin
+        - PASSWORD=password
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  product-command:
+    build:
+      context: ./Services/Product/ProductCommandAPI
+    ports:
+      - '9001:80'
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  product-query:
+    build:
+      context: ./Services/Product/ProductQueryAPI
+    ports:
+      - '9002:80'
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  cart-command:
+    build:
+      context: ./Services/Cart/CartCommandAPI
+    ports:
+      - '9003:80'
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  cart-query:
+    build:
+      context: ./Services/Cart/CartQueryAPI
+    ports:
+      - '9004:80'
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  payment-command:
+    build:
+      context: ./Services/Payment/PaymentCommandAPI
+    ports:
+      - '9005:80'
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  payment-query:
+    build:
+      context: ./Services/Payment/PaymentQueryAPI
+    ports:
+      - '9006:80'
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
+  api-gateway:
+    build:
+      context: ./ApiGateway
+    ports:
+      - '5001:80'
+    depends_on:
+      - product-command
+      - product-query
+      - cart-command
+      - cart-query
+      - payment-command
+      - payment-query
+volumes:
+  db-product-data:
+    driver: local
+  db-payment-data:
+    driver: local
+  db-cart-data:
+    driver: local
+
+    

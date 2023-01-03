@@ -1,0 +1,139 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:80"
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/product",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/product",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [ 
+        {
+          "Host": "product-command",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/product",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/product",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "product-query",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/product/{slug}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/product/{slug}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "product-query",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/product/{slug}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamPathTemplate": "/product/{slug}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "product-command",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/cart",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/cart",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "cart-command",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/cart",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/cart",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "cart-query",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/cart/{slug}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamPathTemplate": "/cart/{slug}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "cart-command",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/payment",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "payment-command",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamPathTemplate": "/payment",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "payment-command",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment/cart",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/payment/cart",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "payment-command",
+          "Port": 80
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/payment",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/payment",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "payment-query",
+          "Port": 80
+        }
+      ]
+    }
+  ]
+}

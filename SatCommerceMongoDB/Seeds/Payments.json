@@ -1,0 +1,37 @@
+[{
+  "_id": "63b3af45453bad58ee0cfff9",
+  "IdNumber": "100500201",
+  "ImageUrl": "https://raw.githubusercontent.com/mpay24/payment-logos/master/logos%402x/color/mastercard%402x.png",
+  "Name": "Master Card",
+  "Type": "Credit Card"
+},{
+  "_id": "63b3af45453bad58ee0cfffa",
+  "IdNumber": "23100423232",
+  "ImageUrl": "https://raw.githubusercontent.com/mpay24/payment-logos/master/logos%402x/color/visa%402x.png",
+  "Name": "Visa",
+  "Type": "Credit Card"
+},{
+  "_id": "63b3af45453bad58ee0cfffb",
+  "IdNumber": "32323233",
+  "ImageUrl": "https://raw.githubusercontent.com/mpay24/payment-logos/master/logos%402x/color/maestro%402x.png",
+  "Name": "Maestro",
+  "Type": "Online Banking"
+},{
+  "_id": "63b3af45453bad58ee0cfffc",
+  "IdNumber": "2232222",
+  "ImageUrl": "https://raw.githubusercontent.com/mpay24/payment-logos/master/logos%402x/color/paypal%402x.png",
+  "Name": "Paypal",
+  "Type": "Online Banking"
+},{
+  "_id": "63b3af45453bad58ee0cfffd",
+  "IdNumber": "3223333",
+  "ImageUrl": "https://raw.githubusercontent.com/mpay24/payment-logos/master/logos%402x/color/alipay%402x.png",
+  "Name": "Alipay",
+  "Type": "Wallets"
+},{
+  "_id": "63b3af45453bad58ee0cfffe",
+  "IdNumber": "32222223",
+  "ImageUrl": "https://raw.githubusercontent.com/mpay24/payment-logos/master/logos%402x/color/wechat_pay%402x.png",
+  "Name": "Wechat Pay",
+  "Type": "Wallets"
+}]
