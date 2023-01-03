@@ -52,6 +52,20 @@ services:
       - '27022:27017'
     volumes:
       - db-payment-data:/data/db
+  db-seeder:
+    build:
+      context: ./Seeds
+      dockerfile: Dockerfile
+      args:
+        - DB_PRODUCT_URI=mongodb://db-product:27017/SatCommerceProduct?authSource=admin
+        - DB_PAYMENT_URI=mongodb://db-payment:27017/SatCommercePayment?authSource=admin
+        - DB_CART_URI=mongodb://db-cart:27017/SatCommerceCart?authSource=admin
+        - USERNAME=admin
+        - PASSWORD=password
+    depends_on:
+      - db-product
+      - db-cart
+      - db-payment
   product-command:
     build:
       context: ./Services/Product/ProductCommandAPI
