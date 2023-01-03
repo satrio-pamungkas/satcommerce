@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartQueryAPI", "Services\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentCommandAPI", "Services\Payment\PaymentCommandAPI\PaymentCommandAPI.csproj", "{740618DA-C741-404A-A652-E0E9A1F11696}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentQueryAPI", "Services\Payment\PaymentQueryAPI\PaymentQueryAPI.csproj", "{2F0BC945-9364-4A68-9255-4683672F079A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{740618DA-C741-404A-A652-E0E9A1F11696}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{740618DA-C741-404A-A652-E0E9A1F11696}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{740618DA-C741-404A-A652-E0E9A1F11696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0BC945-9364-4A68-9255-4683672F079A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0BC945-9364-4A68-9255-4683672F079A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0BC945-9364-4A68-9255-4683672F079A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0BC945-9364-4A68-9255-4683672F079A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
