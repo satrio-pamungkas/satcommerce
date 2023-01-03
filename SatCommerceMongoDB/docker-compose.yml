@@ -21,7 +21,6 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
   db-product:
     image: mongo
-    restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: password
@@ -32,7 +31,6 @@ services:
       - db-product-data:/data/db
   db-cart:
     image: mongo
-    restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: password
@@ -43,7 +41,6 @@ services:
       - db-cart-data:/data/db
   db-payment:
     image: mongo
-    restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: password
