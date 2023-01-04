@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCommandAPI", "Services\Product\ProductCommandAPI\ProductCommandAPI.csproj", "{DBCD7CAC-8E6D-46D7-A6D8-717250C20AA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductQueryAPI", "Services\Product\ProductQueryAPI\ProductQueryAPI.csproj", "{28F3088F-1894-4F1C-8D81-34A1D3043F73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{DBCD7CAC-8E6D-46D7-A6D8-717250C20AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBCD7CAC-8E6D-46D7-A6D8-717250C20AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBCD7CAC-8E6D-46D7-A6D8-717250C20AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F3088F-1894-4F1C-8D81-34A1D3043F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F3088F-1894-4F1C-8D81-34A1D3043F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F3088F-1894-4F1C-8D81-34A1D3043F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F3088F-1894-4F1C-8D81-34A1D3043F73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
