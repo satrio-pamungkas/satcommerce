@@ -22,37 +22,37 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
   db-product:
-    image: postgres:12-alpine
-    restart: always
+    image: cockroachdb/cockroach
     environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+      COCKROACH_DATABASE: default_db
     ports:
-      - '5450:5432'
+      - '26261:26257'
+      - '8081:8080'
+    command: start-single-node --insecure
     volumes:
-      - db-product-data:/var/lib/postgresql/data
+      - db-product-data:/cockroach/cockroach-data
       - ./Sql/satcommerce_product.sql:/docker-entrypoint-initdb.d/satcommerce_product.sql
   db-cart:
-    image: postgres:12-alpine
-    restart: always
+    image: cockroachdb/cockroach
     environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+      COCKROACH_DATABASE: default_db
     ports:
-      - '5451:5432'
+      - '26262:26257'
+      - '8082:8080'
+    command: start-single-node --insecure
     volumes:
-      - db-cart-data:/var/lib/postgresql/data
+      - db-cart-data:/cockroach/cockroach-data
       - ./Sql/satcommerce_cart.sql:/docker-entrypoint-initdb.d/satcommerce_cart.sql
   db-payment:
-    image: postgres:12-alpine
-    restart: always
+    image: cockroachdb/cockroach
     environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+      COCKROACH_DATABASE: default_db
     ports:
-      - '5452:5432'
+      - '26263:26257'
+      - '8083:8080'
+    command: start-single-node --insecure
     volumes:
-      - db-payment-data:/var/lib/postgresql/data
+      - db-payment-data:/cockroach/cockroach-data
       - ./Sql/satcommerce_payment.sql:/docker-entrypoint-initdb.d/satcommerce_payment.sql
   product-command:
     build:
