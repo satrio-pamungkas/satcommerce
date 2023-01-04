@@ -10,6 +10,8 @@ services:
       - "9092:9092"
     expose:
       - "29092"
+    depends_on:
+      - zookeeper
     environment:
       KAFKA_CREATE_TOPICS: "product:1:1,cart:1:1,payment:1:1"
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
