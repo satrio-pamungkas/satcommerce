@@ -44,7 +44,8 @@ public class CartController : ControllerBase
         this._cartTopicProducer.CreateCart(_cartTopic, cartString);
         this._productTopicProducer.UpdateProduct(_productTopic, productString);
 
-        return Ok(request);
+        var response = new CartResponse() {CartId = cartId};
+        return Ok(response);
     }
 
     [HttpDelete("{id}")]
