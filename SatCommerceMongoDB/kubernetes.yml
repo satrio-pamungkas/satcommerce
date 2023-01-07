@@ -1,0 +1,786 @@
+apiVersion: v1
+items:
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: api-gateway
+      name: api-gateway
+    spec:
+      ports:
+        - name: "5001"
+          port: 5001
+          targetPort: 80
+      selector:
+        io.kompose.service: api-gateway
+    status:
+      loadBalancer: {}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: cart-command
+      name: cart-command
+    spec:
+      ports:
+        - name: "9003"
+          port: 9003
+          targetPort: 80
+      selector:
+        io.kompose.service: cart-command
+    status:
+      loadBalancer: {}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: cart-query
+      name: cart-query
+    spec:
+      ports:
+        - name: "9004"
+          port: 9004
+          targetPort: 80
+      selector:
+        io.kompose.service: cart-query
+    status:
+      loadBalancer: {}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: db-cart
+      name: db-cart
+    spec:
+      ports:
+        - name: "27021"
+          port: 27021
+          targetPort: 27017
+      selector:
+        io.kompose.service: db-cart
+    status:
+      loadBalancer: {}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: db-payment
+      name: db-payment
+    spec:
+      ports:
+        - name: "27022"
+          port: 27022
+          targetPort: 27017
+      selector:
+        io.kompose.service: db-payment
+    status:
+      loadBalancer: {}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: db-product
+      name: db-product
+    spec:
+      ports:
+        - name: "27020"
+          port: 27020
+          targetPort: 27017
+      selector:
+        io.kompose.service: db-product
+    status:
+      loadBalancer: {}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: kafka
+      name: kafka
+    spec:
+      ports:
+        - name: "9092"
+          port: 9092
+          targetPort: 9092
+        - name: "29092"
+          port: 29092
+          targetPort: 29092
+      selector:
+        io.kompose.service: kafka
+    status:
+      loadBalancer: {}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: payment-command
+      name: payment-command
+    spec:
+      ports:
+        - name: "9005"
+          port: 9005
+          targetPort: 80
+      selector:
+        io.kompose.service: payment-command
+    status:
+      loadBalancer: {}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: payment-query
+      name: payment-query
+    spec:
+      ports:
+        - name: "9006"
+          port: 9006
+          targetPort: 80
+      selector:
+        io.kompose.service: payment-query
+    status:
+      loadBalancer: {}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: product-command
+      name: product-command
+    spec:
+      ports:
+        - name: "9001"
+          port: 9001
+          targetPort: 80
+      selector:
+        io.kompose.service: product-command
+    status:
+      loadBalancer: {}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: product-query
+      name: product-query
+    spec:
+      ports:
+        - name: "9002"
+          port: 9002
+          targetPort: 80
+      selector:
+        io.kompose.service: product-query
+    status:
+      loadBalancer: {}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: zookeeper
+      name: zookeeper
+    spec:
+      ports:
+        - name: "2181"
+          port: 2181
+          targetPort: 2181
+      selector:
+        io.kompose.service: zookeeper
+    status:
+      loadBalancer: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: api-gateway
+      name: api-gateway
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: api-gateway
+      strategy: {}
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: api-gateway
+        spec:
+          containers:
+            - image: api-gateway
+              name: api-gateway
+              ports:
+                - containerPort: 80
+              resources: {}
+          restartPolicy: Always
+    status: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: cart-command
+      name: cart-command
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: cart-command
+      strategy: {}
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: cart-command
+        spec:
+          containers:
+            - image: cart-command
+              name: cart-command
+              ports:
+                - containerPort: 80
+              resources: {}
+          restartPolicy: Always
+    status: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: cart-query
+      name: cart-query
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: cart-query
+      strategy: {}
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: cart-query
+        spec:
+          containers:
+            - image: cart-query
+              name: cart-query
+              ports:
+                - containerPort: 80
+              resources: {}
+          restartPolicy: Always
+    status: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: db-cart
+      name: db-cart
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: db-cart
+      strategy:
+        type: Recreate
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: db-cart
+        spec:
+          containers:
+            - env:
+                - name: MONGO_INITDB_DATABASE
+                  value: SatCommerceCart
+                - name: MONGO_INITDB_ROOT_PASSWORD
+                  value: password
+                - name: MONGO_INITDB_ROOT_USERNAME
+                  value: admin
+              image: mongo
+              name: db-cart
+              ports:
+                - containerPort: 27017
+              resources: {}
+              volumeMounts:
+                - mountPath: /data/db
+                  name: db-cart-data
+          restartPolicy: Always
+          volumes:
+            - name: db-cart-data
+              persistentVolumeClaim:
+                claimName: db-cart-data
+    status: {}
+  - apiVersion: v1
+    kind: PersistentVolumeClaim
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: db-cart-data
+      name: db-cart-data
+    spec:
+      accessModes:
+        - ReadWriteOnce
+      resources:
+        requests:
+          storage: 100Mi
+    status: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: db-payment
+      name: db-payment
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: db-payment
+      strategy:
+        type: Recreate
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: db-payment
+        spec:
+          containers:
+            - env:
+                - name: MONGO_INITDB_DATABASE
+                  value: SatCommercePayment
+                - name: MONGO_INITDB_ROOT_PASSWORD
+                  value: password
+                - name: MONGO_INITDB_ROOT_USERNAME
+                  value: admin
+              image: mongo
+              name: db-payment
+              ports:
+                - containerPort: 27017
+              resources: {}
+              volumeMounts:
+                - mountPath: /data/db
+                  name: db-payment-data
+          restartPolicy: Always
+          volumes:
+            - name: db-payment-data
+              persistentVolumeClaim:
+                claimName: db-payment-data
+    status: {}
+  - apiVersion: v1
+    kind: PersistentVolumeClaim
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: db-payment-data
+      name: db-payment-data
+    spec:
+      accessModes:
+        - ReadWriteOnce
+      resources:
+        requests:
+          storage: 100Mi
+    status: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: db-product
+      name: db-product
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: db-product
+      strategy:
+        type: Recreate
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: db-product
+        spec:
+          containers:
+            - env:
+                - name: MONGO_INITDB_DATABASE
+                  value: SatCommerceProduct
+                - name: MONGO_INITDB_ROOT_PASSWORD
+                  value: password
+                - name: MONGO_INITDB_ROOT_USERNAME
+                  value: admin
+              image: mongo
+              name: db-product
+              ports:
+                - containerPort: 27017
+              resources: {}
+              volumeMounts:
+                - mountPath: /data/db
+                  name: db-product-data
+          restartPolicy: Always
+          volumes:
+            - name: db-product-data
+              persistentVolumeClaim:
+                claimName: db-product-data
+    status: {}
+  - apiVersion: v1
+    kind: PersistentVolumeClaim
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: db-product-data
+      name: db-product-data
+    spec:
+      accessModes:
+        - ReadWriteOnce
+      resources:
+        requests:
+          storage: 100Mi
+    status: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: db-seeder
+      name: db-seeder
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: db-seeder
+      strategy: {}
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: db-seeder
+        spec:
+          containers:
+            - image: db-seeder
+              name: db-seeder
+              resources: {}
+          restartPolicy: Always
+    status: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: kafka
+      name: kafka
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: kafka
+      strategy:
+        type: Recreate
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: kafka
+        spec:
+          containers:
+            - env:
+                - name: KAFKA_ADVERTISED_LISTENERS
+                  value: INSIDE://kafka:29092,OUTSIDE://localhost:9092
+                - name: KAFKA_CREATE_TOPICS
+                  value: product:1:1,cart:1:1,payment:1:1
+                - name: KAFKA_INTER_BROKER_LISTENER_NAME
+                  value: INSIDE
+                - name: KAFKA_LISTENERS
+                  value: INSIDE://:29092,OUTSIDE://:9092
+                - name: KAFKA_LISTENER_SECURITY_PROTOCOL_MAP
+                  value: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+                - name: KAFKA_ZOOKEEPER_CONNECT
+                  value: zookeeper:2181
+              image: wurstmeister/kafka
+              name: kafka
+              ports:
+                - containerPort: 9092
+                - containerPort: 29092
+              resources: {}
+              volumeMounts:
+                - mountPath: /var/run/docker.sock
+                  name: kafka-claim0
+          restartPolicy: Always
+          volumes:
+            - name: kafka-claim0
+              persistentVolumeClaim:
+                claimName: kafka-claim0
+    status: {}
+  - apiVersion: v1
+    kind: PersistentVolumeClaim
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: kafka-claim0
+      name: kafka-claim0
+    spec:
+      accessModes:
+        - ReadWriteOnce
+      resources:
+        requests:
+          storage: 100Mi
+    status: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: payment-command
+      name: payment-command
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: payment-command
+      strategy: {}
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: payment-command
+        spec:
+          containers:
+            - image: payment-command
+              name: payment-command
+              ports:
+                - containerPort: 80
+              resources: {}
+          restartPolicy: Always
+    status: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: payment-query
+      name: payment-query
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: payment-query
+      strategy: {}
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: payment-query
+        spec:
+          containers:
+            - image: payment-query
+              name: payment-query
+              ports:
+                - containerPort: 80
+              resources: {}
+          restartPolicy: Always
+    status: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: product-command
+      name: product-command
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: product-command
+      strategy: {}
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: product-command
+        spec:
+          containers:
+            - image: product-command
+              name: product-command
+              ports:
+                - containerPort: 80
+              resources: {}
+          restartPolicy: Always
+    status: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: product-query
+      name: product-query
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: product-query
+      strategy: {}
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: product-query
+        spec:
+          containers:
+            - image: product-query
+              name: product-query
+              ports:
+                - containerPort: 80
+              resources: {}
+          restartPolicy: Always
+    status: {}
+  - apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: zookeeper
+      name: zookeeper
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          io.kompose.service: zookeeper
+      strategy: {}
+      template:
+        metadata:
+          annotations:
+            kompose.cmd: kompose convert --file docker-compose.yml --out kubernetes.yml
+            kompose.version: 1.26.0 (40646f47)
+          creationTimestamp: null
+          labels:
+            io.kompose.service: zookeeper
+        spec:
+          containers:
+            - image: wurstmeister/zookeeper
+              name: zookeeper
+              ports:
+                - containerPort: 2181
+              resources: {}
+          restartPolicy: Always
+    status: {}
+kind: List
+metadata: {}
+
