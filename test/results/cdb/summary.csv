@@ -1,0 +1,7 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Get all products,200,121,11,456,97.07,0.000%,3.52958,26.42,0.43,7664.9
+Get specific product,200,71,9,778,100.53,0.000%,3.53769,1.78,0.62,516.1
+Create cart,200,34,9,1593,111.67,0.000%,3.59105,0.66,0.90,189.0
+Get all payment methods,200,16,7,350,24.90,0.000%,3.69576,5.18,0.45,1436.0
+Make a payment for specific cart,200,34,7,2606,182.71,0.000%,3.69706,0.86,1.07,237.0
+TOTAL,1000,55,7,2606,120.87,0.000%,17.62611,34.57,3.37,2008.6

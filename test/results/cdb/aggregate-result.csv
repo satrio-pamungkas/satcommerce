@@ -1,0 +1,1001 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1673108521230,138,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,138,0,11
+1673108521372,778,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,506,175,1,1,http://localhost:5001/product/gray-suitcase-10b74863-5d93-4e3b-9e36-d10ba65ddddb,778,0,0
+1673108522236,1593,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,1593,0,0
+1673108523830,36,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,36,0,0
+1673108523867,2606,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,2606,0,0
+1673108526474,20,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,19,0,0
+1673108526494,20,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,479,176,1,1,http://localhost:5001/product/cilantaro-rice-15170cd6-eac7-4361-b986-d6dd6c2e0843,20,0,0
+1673108526516,27,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,27,0,0
+1673108526544,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108526556,30,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,30,0,0
+1673108526587,13,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,13,0,0
+1673108526601,22,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,514,178,1,1,http://localhost:5001/product/usb-wall-charger-1952966a-5ef3-4c51-839c-2cc518352cc3,22,0,0
+1673108526624,21,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,21,0,0
+1673108526646,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108526663,29,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,29,0,0
+1673108526693,87,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,87,0,0
+1673108526781,11,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,498,182,1,1,http://localhost:5001/product/white-casual-sneaker-1fed1c91-bc6d-4a65-9bbd-dc12f7fe011a,11,0,0
+1673108526793,15,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,15,0,0
+1673108526810,19,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,19,0,0
+1673108526830,45,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,45,0,0
+1673108526876,14,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,14,0,0
+1673108526891,17,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,497,174,1,1,http://localhost:5001/product/fabric-chair-32fcf410-cd80-4551-beeb-d3959fdf64f4,17,0,0
+1673108526909,37,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,37,0,0
+1673108526947,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108526963,127,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,127,0,0
+1673108527091,22,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,22,0,0
+1673108527113,24,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,553,189,1,1,http://localhost:5001/product/citrus-lavender-disinfectan-41ea683c-25da-46fe-9da5-9b9072997b24,24,0,0
+1673108527139,70,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,70,0,0
+1673108527210,43,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,43,0,0
+1673108527254,59,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,59,0,0
+1673108527314,13,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,13,0,0
+1673108527327,10,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,522,189,1,1,http://localhost:5001/product/digital-tire-pressure-gauge-5e05a25b-d789-4d5e-9ed0-a6788f1a6bf3,10,0,0
+1673108527338,20,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,20,0,0
+1673108527358,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108527370,68,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,68,0,0
+1673108527439,12,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,12,0,0
+1673108527452,18,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,183,1,1,http://localhost:5001/product/multi-purpose-cleaner-5fb9e4c0-2cf9-4a18-bcfb-59bc70ed9569,17,0,0
+1673108527471,32,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,32,0,0
+1673108527504,18,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,17,0,0
+1673108527522,26,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,26,0,0
+1673108527549,161,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,161,0,0
+1673108527711,331,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,495,173,1,1,http://localhost:5001/product/pet-carrier-5ff61020-9c10-48c6-8c1d-b19d6bdf8234,331,0,0
+1673108528043,15,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,15,0,0
+1673108528059,57,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,57,0,0
+1673108528117,59,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,59,0,0
+1673108528177,122,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,122,0,0
+1673108528300,341,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,178,1,1,http://localhost:5001/product/cream-style-corn-67e91eeb-537d-4f9a-895d-68225d6c28c5,340,0,0
+1673108528642,21,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,21,0,0
+1673108528664,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108528679,29,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,29,0,0
+1673108528709,29,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,29,0,0
+1673108528739,152,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,187,1,1,http://localhost:5001/product/blend-go-smoothie-blender-8741ea6b-f4a9-450d-9437-2b430484f59f,152,0,0
+1673108528892,37,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,37,0,0
+1673108528930,27,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,27,0,0
+1673108528958,50,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,50,0,0
+1673108529009,71,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,71,0,0
+1673108529081,20,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,489,170,1,1,http://localhost:5001/product/pet-food-a1e689bf-3848-4b5b-baa4-d4116f922860,20,0,0
+1673108529102,60,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,60,0,0
+1673108529164,28,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,28,0,0
+1673108529195,44,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,44,0,0
+1673108529240,49,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,49,0,0
+1673108529290,18,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,188,1,1,http://localhost:5001/product/stainless-steel-frying-pan-a22e8fde-484f-47ff-8a9e-c68cb338e521,17,0,0
+1673108529309,18,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,18,0,0
+1673108529328,21,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,21,0,0
+1673108529350,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108529366,12,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,11,0,0
+1673108529378,15,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,177,1,1,http://localhost:5001/product/pail-mop-bucket-a72176f4-f267-46ba-9092-8c5c69ff8bb8,15,0,0
+1673108529394,18,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,18,0,0
+1673108529413,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108529425,26,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,26,0,0
+1673108529452,14,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,14,0,0
+1673108529467,16,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,184,1,1,http://localhost:5001/product/thermoplastic-filament-b25ec246-1572-4b81-92c8-1987af456594,16,0,0
+1673108529484,38,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,38,0,0
+1673108529523,29,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,29,0,0
+1673108529553,42,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,42,0,0
+1673108529595,16,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,16,0,0
+1673108529612,13,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,554,189,1,1,http://localhost:5001/product/composition-notebook-4-pack-b314c5cd-437b-4cc0-b5fd-188c841502aa,13,0,0
+1673108529626,47,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,47,0,0
+1673108529674,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108529689,34,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,34,0,0
+1673108529724,72,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,72,0,0
+1673108529797,13,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,542,170,1,1,http://localhost:5001/product/backpack-d2da5136-a979-439d-9fed-a2495f42a4ef,13,0,0
+1673108529811,19,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,19,0,0
+1673108529831,26,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,26,0,0
+1673108529857,30,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,30,0,0
+1673108529888,200,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,200,0,0
+1673108530088,15,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,177,1,1,http://localhost:5001/product/amazon-cap-gear-d6944d09-6e5a-4f66-8967-db89698f05a1,15,0,0
+1673108530103,18,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,18,0,0
+1673108530122,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108530134,21,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,21,0,0
+1673108530156,32,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,32,0,0
+1673108530189,32,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,520,179,1,1,http://localhost:5001/product/blue-gaming-chair-e8c93f0c-59d5-4d7c-9ed5-bc4665367345,32,0,0
+1673108530223,36,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,36,0,0
+1673108530260,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108530275,27,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,27,0,0
+1673108530303,33,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,33,0,0
+1673108530337,14,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,512,180,1,1,http://localhost:5001/product/digital-multimeter-fb4ad848-ad00-4bde-911a-10965115c795,14,0,0
+1673108530352,18,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,17,0,0
+1673108530371,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108530387,38,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,38,0,0
+1673108530426,301,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,301,0,0
+1673108530728,21,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,506,175,1,1,http://localhost:5001/product/gray-suitcase-10b74863-5d93-4e3b-9e36-d10ba65ddddb,21,0,0
+1673108530750,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108530765,18,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,18,0,0
+1673108530783,28,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,28,0,0
+1673108530812,113,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,112,0,0
+1673108530925,21,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,479,176,1,1,http://localhost:5001/product/cilantaro-rice-15170cd6-eac7-4361-b986-d6dd6c2e0843,21,0,0
+1673108530946,23,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,23,0,0
+1673108530970,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108530982,11,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,11,0,0
+1673108530994,325,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,325,0,0
+1673108531320,14,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,514,178,1,1,http://localhost:5001/product/usb-wall-charger-1952966a-5ef3-4c51-839c-2cc518352cc3,14,0,0
+1673108531335,11,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,11,0,0
+1673108531347,23,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,23,0,0
+1673108531371,17,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,17,0,0
+1673108531389,30,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,29,0,0
+1673108531419,206,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,498,182,1,1,http://localhost:5001/product/white-casual-sneaker-1fed1c91-bc6d-4a65-9bbd-dc12f7fe011a,206,0,0
+1673108531626,50,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,50,0,0
+1673108531678,46,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,46,0,0
+1673108531725,30,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,30,0,0
+1673108531756,18,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,18,0,0
+1673108531775,17,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,497,174,1,1,http://localhost:5001/product/fabric-chair-32fcf410-cd80-4551-beeb-d3959fdf64f4,17,0,0
+1673108531792,13,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,13,0,0
+1673108531806,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108531822,17,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,16,0,0
+1673108531839,164,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,164,0,0
+1673108532004,66,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,553,189,1,1,http://localhost:5001/product/citrus-lavender-disinfectan-41ea683c-25da-46fe-9da5-9b9072997b24,66,0,0
+1673108532071,27,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,27,0,0
+1673108532099,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108532111,18,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
+1673108532130,248,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,247,0,0
+1673108532379,57,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,522,189,1,1,http://localhost:5001/product/digital-tire-pressure-gauge-5e05a25b-d789-4d5e-9ed0-a6788f1a6bf3,56,0,0
+1673108532437,33,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,33,0,0
+1673108532470,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108532487,12,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,12,0,0
+1673108532500,199,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,199,0,0
+1673108532701,164,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,183,1,1,http://localhost:5001/product/multi-purpose-cleaner-5fb9e4c0-2cf9-4a18-bcfb-59bc70ed9569,164,0,0
+1673108532868,55,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,55,0,0
+1673108532925,26,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,26,0,0
+1673108532952,20,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,20,0,0
+1673108532973,36,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,36,0,0
+1673108533010,194,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,495,173,1,1,http://localhost:5001/product/pet-carrier-5ff61020-9c10-48c6-8c1d-b19d6bdf8234,194,0,0
+1673108533205,21,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,21,0,0
+1673108533227,31,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,31,0,0
+1673108533259,31,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,31,0,0
+1673108533291,29,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,29,0,0
+1673108533320,24,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,178,1,1,http://localhost:5001/product/cream-style-corn-67e91eeb-537d-4f9a-895d-68225d6c28c5,24,0,0
+1673108533345,21,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,21,0,0
+1673108533367,18,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,18,0,0
+1673108533385,23,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,23,0,0
+1673108533409,43,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,43,0,0
+1673108533453,193,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,187,1,1,http://localhost:5001/product/blend-go-smoothie-blender-8741ea6b-f4a9-450d-9437-2b430484f59f,193,0,0
+1673108533646,47,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,47,0,0
+1673108533694,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108533708,21,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,21,0,0
+1673108533730,26,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,26,0,0
+1673108533757,184,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,489,170,1,1,http://localhost:5001/product/pet-food-a1e689bf-3848-4b5b-baa4-d4116f922860,184,0,0
+1673108533942,35,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,35,0,0
+1673108533978,23,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,22,0,0
+1673108534001,29,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,29,0,0
+1673108534031,60,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,60,0,0
+1673108534092,196,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,188,1,1,http://localhost:5001/product/stainless-steel-frying-pan-a22e8fde-484f-47ff-8a9e-c68cb338e521,196,0,0
+1673108534288,22,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,22,0,0
+1673108534312,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108534323,22,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,22,0,0
+1673108534346,39,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,39,0,0
+1673108534386,19,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,177,1,1,http://localhost:5001/product/pail-mop-bucket-a72176f4-f267-46ba-9092-8c5c69ff8bb8,18,0,0
+1673108534406,20,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,20,0,0
+1673108534427,25,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,25,0,0
+1673108534452,25,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,25,0,0
+1673108534477,16,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,16,0,0
+1673108534494,202,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,184,1,1,http://localhost:5001/product/thermoplastic-filament-b25ec246-1572-4b81-92c8-1987af456594,202,0,0
+1673108534697,33,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,33,0,0
+1673108534731,26,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,26,0,0
+1673108534757,40,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,40,0,0
+1673108534798,167,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,167,0,0
+1673108534966,188,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,554,189,1,1,http://localhost:5001/product/composition-notebook-4-pack-b314c5cd-437b-4cc0-b5fd-188c841502aa,188,0,0
+1673108535155,41,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,41,0,0
+1673108535196,21,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,21,0,0
+1673108535217,50,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,50,0,0
+1673108535268,284,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,284,0,0
+1673108535554,25,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,542,170,1,1,http://localhost:5001/product/backpack-d2da5136-a979-439d-9fed-a2495f42a4ef,25,0,0
+1673108535580,24,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,24,0,0
+1673108535605,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108535615,9,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,9,0,0
+1673108535625,58,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,58,0,0
+1673108535684,184,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,177,1,1,http://localhost:5001/product/amazon-cap-gear-d6944d09-6e5a-4f66-8967-db89698f05a1,184,0,0
+1673108535869,32,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,32,0,0
+1673108535902,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108535915,25,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,25,0,0
+1673108535941,26,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,25,0,0
+1673108535967,107,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,520,179,1,1,http://localhost:5001/product/blue-gaming-chair-e8c93f0c-59d5-4d7c-9ed5-bc4665367345,107,0,0
+1673108536076,49,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,49,0,0
+1673108536127,41,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,41,0,0
+1673108536169,30,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,30,0,0
+1673108536200,66,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,66,0,0
+1673108536266,198,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,512,180,1,1,http://localhost:5001/product/digital-multimeter-fb4ad848-ad00-4bde-911a-10965115c795,198,0,0
+1673108536467,46,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,46,0,0
+1673108536515,20,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,20,0,0
+1673108536536,13,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,13,0,0
+1673108536549,11,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,11,0,0
+1673108536560,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,506,175,1,1,http://localhost:5001/product/gray-suitcase-10b74863-5d93-4e3b-9e36-d10ba65ddddb,12,0,0
+1673108536573,28,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,28,0,0
+1673108536602,17,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108536619,16,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,16,0,0
+1673108536636,69,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,69,0,0
+1673108536705,14,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,479,176,1,1,http://localhost:5001/product/cilantaro-rice-15170cd6-eac7-4361-b986-d6dd6c2e0843,14,0,0
+1673108536720,19,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,19,0,0
+1673108536739,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108536754,13,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,13,0,0
+1673108536768,144,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,144,0,0
+1673108536913,197,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,514,178,1,1,http://localhost:5001/product/usb-wall-charger-1952966a-5ef3-4c51-839c-2cc518352cc3,196,0,0
+1673108537111,56,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,56,0,0
+1673108537167,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108537181,16,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,16,0,0
+1673108537197,102,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,102,0,0
+1673108537300,27,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,498,182,1,1,http://localhost:5001/product/white-casual-sneaker-1fed1c91-bc6d-4a65-9bbd-dc12f7fe011a,27,0,0
+1673108537328,20,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,20,0,0
+1673108537350,350,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,349,0,0
+1673108537700,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108537711,77,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,77,0,0
+1673108537789,20,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,497,174,1,1,http://localhost:5001/product/fabric-chair-32fcf410-cd80-4551-beeb-d3959fdf64f4,20,0,0
+1673108537810,10,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,10,0,0
+1673108537821,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108537835,16,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,16,0,0
+1673108537851,139,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,139,0,0
+1673108537991,108,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,553,189,1,1,http://localhost:5001/product/citrus-lavender-disinfectan-41ea683c-25da-46fe-9da5-9b9072997b24,108,0,0
+1673108538100,27,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,27,0,0
+1673108538127,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108538136,16,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,16,0,0
+1673108538152,128,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,128,0,0
+1673108538281,16,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,522,189,1,1,http://localhost:5001/product/digital-tire-pressure-gauge-5e05a25b-d789-4d5e-9ed0-a6788f1a6bf3,16,0,0
+1673108538298,17,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,16,0,0
+1673108538315,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108538325,18,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
+1673108538343,44,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,44,0,0
+1673108538389,44,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,183,1,1,http://localhost:5001/product/multi-purpose-cleaner-5fb9e4c0-2cf9-4a18-bcfb-59bc70ed9569,44,0,0
+1673108538435,21,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,21,0,0
+1673108538457,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108538470,30,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,30,0,0
+1673108538501,33,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,33,0,0
+1673108538535,192,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,495,173,1,1,http://localhost:5001/product/pet-carrier-5ff61020-9c10-48c6-8c1d-b19d6bdf8234,192,0,0
+1673108538728,20,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,20,0,0
+1673108538749,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108538760,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108538771,53,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,53,0,0
+1673108538825,16,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,178,1,1,http://localhost:5001/product/cream-style-corn-67e91eeb-537d-4f9a-895d-68225d6c28c5,16,0,0
+1673108538842,16,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,16,0,0
+1673108538859,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108538872,17,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,17,0,0
+1673108538891,31,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,31,0,0
+1673108538922,11,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,187,1,1,http://localhost:5001/product/blend-go-smoothie-blender-8741ea6b-f4a9-450d-9437-2b430484f59f,11,0,0
+1673108538933,12,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,12,0,0
+1673108538945,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108538961,27,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,27,0,0
+1673108538988,15,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,15,0,0
+1673108539004,16,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,489,170,1,1,http://localhost:5001/product/pet-food-a1e689bf-3848-4b5b-baa4-d4116f922860,16,0,0
+1673108539021,11,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,11,0,0
+1673108539033,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108539043,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108539058,12,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,12,0,0
+1673108539071,9,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,188,1,1,http://localhost:5001/product/stainless-steel-frying-pan-a22e8fde-484f-47ff-8a9e-c68cb338e521,9,0,0
+1673108539081,21,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,21,0,0
+1673108539103,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108539114,27,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,27,0,0
+1673108539142,29,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,29,0,0
+1673108539172,17,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,177,1,1,http://localhost:5001/product/pail-mop-bucket-a72176f4-f267-46ba-9092-8c5c69ff8bb8,17,0,0
+1673108539190,34,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,34,0,0
+1673108539225,25,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,25,0,0
+1673108539250,42,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,42,0,0
+1673108539293,194,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,194,0,0
+1673108539489,170,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,184,1,1,http://localhost:5001/product/thermoplastic-filament-b25ec246-1572-4b81-92c8-1987af456594,170,0,0
+1673108539659,24,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,24,0,0
+1673108539683,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108539697,19,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,19,0,0
+1673108539716,337,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,337,0,0
+1673108540054,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,554,189,1,1,http://localhost:5001/product/composition-notebook-4-pack-b314c5cd-437b-4cc0-b5fd-188c841502aa,12,0,0
+1673108540067,12,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,11,0,0
+1673108540079,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108540094,20,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,20,0,0
+1673108540115,38,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,38,0,0
+1673108540154,13,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,542,170,1,1,http://localhost:5001/product/backpack-d2da5136-a979-439d-9fed-a2495f42a4ef,13,0,0
+1673108540169,25,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,25,0,0
+1673108540194,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108540204,24,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,24,0,0
+1673108540229,121,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,121,0,0
+1673108540351,13,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,177,1,1,http://localhost:5001/product/amazon-cap-gear-d6944d09-6e5a-4f66-8967-db89698f05a1,13,0,0
+1673108540365,27,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,27,0,0
+1673108540393,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108540405,23,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,23,0,0
+1673108540429,122,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,122,0,0
+1673108540551,16,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,520,179,1,1,http://localhost:5001/product/blue-gaming-chair-e8c93f0c-59d5-4d7c-9ed5-bc4665367345,16,0,0
+1673108540567,12,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,12,0,0
+1673108540580,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108540591,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108540607,239,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,239,0,0
+1673108540847,34,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,512,180,1,1,http://localhost:5001/product/digital-multimeter-fb4ad848-ad00-4bde-911a-10965115c795,34,0,0
+1673108540883,36,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,35,0,0
+1673108540921,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108540938,18,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
+1673108540957,282,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,282,0,0
+1673108541263,25,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,506,175,1,1,http://localhost:5001/product/gray-suitcase-10b74863-5d93-4e3b-9e36-d10ba65ddddb,25,0,0
+1673108541289,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108541304,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108541317,14,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,14,0,0
+1673108541331,65,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,64,0,0
+1673108541397,49,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,479,176,1,1,http://localhost:5001/product/cilantaro-rice-15170cd6-eac7-4361-b986-d6dd6c2e0843,49,0,0
+1673108541448,22,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,22,0,0
+1673108541471,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108541481,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108541491,200,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,199,0,0
+1673108541692,192,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,514,178,1,1,http://localhost:5001/product/usb-wall-charger-1952966a-5ef3-4c51-839c-2cc518352cc3,192,0,0
+1673108541886,71,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,71,0,0
+1673108541961,33,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,33,0,0
+1673108541995,19,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,19,0,0
+1673108542015,63,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,63,0,0
+1673108542079,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,498,182,1,1,http://localhost:5001/product/white-casual-sneaker-1fed1c91-bc6d-4a65-9bbd-dc12f7fe011a,12,0,0
+1673108542091,12,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,12,0,0
+1673108542104,7,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,7,0,0
+1673108542112,38,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,38,0,0
+1673108542150,331,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,331,0,0
+1673108542483,34,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,497,174,1,1,http://localhost:5001/product/fabric-chair-32fcf410-cd80-4551-beeb-d3959fdf64f4,34,0,0
+1673108542518,21,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,21,0,0
+1673108542539,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108542551,12,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,12,0,0
+1673108542563,109,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,109,0,0
+1673108542674,36,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,553,189,1,1,http://localhost:5001/product/citrus-lavender-disinfectan-41ea683c-25da-46fe-9da5-9b9072997b24,36,0,0
+1673108542713,75,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,75,0,0
+1673108542789,8,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,8,0,0
+1673108542798,13,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,13,0,0
+1673108542812,157,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,157,0,0
+1673108542970,45,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,522,189,1,1,http://localhost:5001/product/digital-tire-pressure-gauge-5e05a25b-d789-4d5e-9ed0-a6788f1a6bf3,44,0,0
+1673108543017,65,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,65,0,0
+1673108543083,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,8,0,0
+1673108543092,19,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
+1673108543111,166,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,166,0,0
+1673108543286,130,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,183,1,1,http://localhost:5001/product/multi-purpose-cleaner-5fb9e4c0-2cf9-4a18-bcfb-59bc70ed9569,130,0,0
+1673108543417,15,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,15,0,0
+1673108543432,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108543443,31,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,31,0,0
+1673108543474,32,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,32,0,0
+1673108543507,11,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,495,173,1,1,http://localhost:5001/product/pet-carrier-5ff61020-9c10-48c6-8c1d-b19d6bdf8234,11,0,0
+1673108543518,9,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,9,0,0
+1673108543528,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108543539,18,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
+1673108543557,152,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,151,0,0
+1673108543711,63,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,178,1,1,http://localhost:5001/product/cream-style-corn-67e91eeb-537d-4f9a-895d-68225d6c28c5,63,0,0
+1673108543784,40,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,40,0,0
+1673108543826,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108543837,28,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,28,0,0
+1673108543866,19,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,19,0,0
+1673108543885,369,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,187,1,1,http://localhost:5001/product/blend-go-smoothie-blender-8741ea6b-f4a9-450d-9437-2b430484f59f,368,0,0
+1673108544255,69,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,69,0,0
+1673108544325,32,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,32,0,0
+1673108544357,32,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,32,0,0
+1673108544390,54,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,54,0,0
+1673108544444,99,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,489,170,1,1,http://localhost:5001/product/pet-food-a1e689bf-3848-4b5b-baa4-d4116f922860,99,0,0
+1673108544544,79,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,79,0,0
+1673108544624,8,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,8,0,0
+1673108544633,22,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,22,0,0
+1673108544655,401,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,401,0,0
+1673108545057,186,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,188,1,1,http://localhost:5001/product/stainless-steel-frying-pan-a22e8fde-484f-47ff-8a9e-c68cb338e521,186,0,0
+1673108545244,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108545259,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108545271,16,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,16,0,0
+1673108545288,154,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,154,0,0
+1673108545443,37,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,177,1,1,http://localhost:5001/product/pail-mop-bucket-a72176f4-f267-46ba-9092-8c5c69ff8bb8,36,0,0
+1673108545481,50,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,50,0,0
+1673108545532,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108545544,18,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
+1673108545563,174,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,174,0,0
+1673108545747,25,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,184,1,1,http://localhost:5001/product/thermoplastic-filament-b25ec246-1572-4b81-92c8-1987af456594,25,0,0
+1673108545773,50,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,50,0,0
+1673108545824,17,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,17,0,0
+1673108545841,19,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,19,0,0
+1673108545860,76,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,76,0,0
+1673108545937,36,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,554,189,1,1,http://localhost:5001/product/composition-notebook-4-pack-b314c5cd-437b-4cc0-b5fd-188c841502aa,36,0,0
+1673108545974,38,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,38,0,0
+1673108546013,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108546025,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,9,0,0
+1673108546035,205,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,204,0,0
+1673108546245,93,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,542,170,1,1,http://localhost:5001/product/backpack-d2da5136-a979-439d-9fed-a2495f42a4ef,93,0,0
+1673108546339,19,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,19,0,0
+1673108546358,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108546371,23,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,23,0,0
+1673108546395,148,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,148,0,0
+1673108546544,34,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,177,1,1,http://localhost:5001/product/amazon-cap-gear-d6944d09-6e5a-4f66-8967-db89698f05a1,34,0,0
+1673108546579,30,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,30,0,0
+1673108546610,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108546626,26,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,25,0,0
+1673108546652,142,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,142,0,0
+1673108546795,42,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,520,179,1,1,http://localhost:5001/product/blue-gaming-chair-e8c93f0c-59d5-4d7c-9ed5-bc4665367345,42,0,0
+1673108546837,26,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,26,0,0
+1673108546863,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108546872,22,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,22,0,0
+1673108546895,33,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,33,0,0
+1673108546929,10,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,512,180,1,1,http://localhost:5001/product/digital-multimeter-fb4ad848-ad00-4bde-911a-10965115c795,10,0,0
+1673108546940,9,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,9,0,0
+1673108546949,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108546965,26,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,26,0,0
+1673108546992,136,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,136,0,0
+1673108547130,35,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,506,175,1,1,http://localhost:5001/product/gray-suitcase-10b74863-5d93-4e3b-9e36-d10ba65ddddb,35,0,0
+1673108547166,69,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,69,0,0
+1673108547236,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108547249,16,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,16,0,0
+1673108547265,261,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,261,0,0
+1673108547526,198,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,479,176,1,1,http://localhost:5001/product/cilantaro-rice-15170cd6-eac7-4361-b986-d6dd6c2e0843,198,0,0
+1673108547725,19,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,19,0,0
+1673108547745,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108547759,16,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,16,0,0
+1673108547775,246,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,246,0,0
+1673108548022,94,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,514,178,1,1,http://localhost:5001/product/usb-wall-charger-1952966a-5ef3-4c51-839c-2cc518352cc3,94,0,0
+1673108548117,18,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,18,0,0
+1673108548136,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108548146,17,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,17,0,0
+1673108548163,152,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,152,0,0
+1673108548315,202,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,498,182,1,1,http://localhost:5001/product/white-casual-sneaker-1fed1c91-bc6d-4a65-9bbd-dc12f7fe011a,202,0,0
+1673108548518,27,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,27,0,0
+1673108548547,28,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,28,0,0
+1673108548575,26,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,25,0,0
+1673108548604,114,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,114,0,0
+1673108548719,37,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,497,174,1,1,http://localhost:5001/product/fabric-chair-32fcf410-cd80-4551-beeb-d3959fdf64f4,37,0,0
+1673108548757,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108548772,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108548783,12,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,12,0,0
+1673108548795,216,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,216,0,0
+1673108549012,36,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,553,189,1,1,http://localhost:5001/product/citrus-lavender-disinfectan-41ea683c-25da-46fe-9da5-9b9072997b24,36,0,0
+1673108549062,24,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,24,0,0
+1673108549087,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108549101,18,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
+1673108549120,30,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,30,0,0
+1673108549150,15,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,522,189,1,1,http://localhost:5001/product/digital-tire-pressure-gauge-5e05a25b-d789-4d5e-9ed0-a6788f1a6bf3,15,0,0
+1673108549165,24,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,24,0,0
+1673108549189,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108549203,30,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,30,0,0
+1673108549234,126,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,126,0,0
+1673108549360,102,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,183,1,1,http://localhost:5001/product/multi-purpose-cleaner-5fb9e4c0-2cf9-4a18-bcfb-59bc70ed9569,102,0,0
+1673108549463,40,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,40,0,0
+1673108549505,36,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,36,0,0
+1673108549542,43,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,42,0,0
+1673108549585,276,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,276,0,0
+1673108549862,26,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,495,173,1,1,http://localhost:5001/product/pet-carrier-5ff61020-9c10-48c6-8c1d-b19d6bdf8234,26,0,0
+1673108549888,9,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,9,0,0
+1673108549898,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108549909,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108549920,133,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,133,0,0
+1673108550055,44,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,178,1,1,http://localhost:5001/product/cream-style-corn-67e91eeb-537d-4f9a-895d-68225d6c28c5,44,0,0
+1673108550100,38,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,38,0,0
+1673108550139,18,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,18,0,0
+1673108550158,13,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,13,0,0
+1673108550171,82,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,82,0,0
+1673108550256,33,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,187,1,1,http://localhost:5001/product/blend-go-smoothie-blender-8741ea6b-f4a9-450d-9437-2b430484f59f,33,0,0
+1673108550290,26,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,26,0,0
+1673108550321,19,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,19,0,0
+1673108550340,26,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,26,0,0
+1673108550367,78,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,78,0,0
+1673108550445,16,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,489,170,1,1,http://localhost:5001/product/pet-food-a1e689bf-3848-4b5b-baa4-d4116f922860,16,0,0
+1673108550462,11,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,11,0,0
+1673108550474,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108550487,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108550503,37,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,37,0,0
+1673108550541,11,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,188,1,1,http://localhost:5001/product/stainless-steel-frying-pan-a22e8fde-484f-47ff-8a9e-c68cb338e521,11,0,0
+1673108550552,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108550567,8,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,8,0,0
+1673108550575,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108550585,56,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,56,0,0
+1673108550642,107,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,177,1,1,http://localhost:5001/product/pail-mop-bucket-a72176f4-f267-46ba-9092-8c5c69ff8bb8,107,0,0
+1673108550760,53,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,53,0,0
+1673108550815,24,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,24,0,0
+1673108550839,20,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,20,0,0
+1673108550859,76,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,76,0,0
+1673108550935,14,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,184,1,1,http://localhost:5001/product/thermoplastic-filament-b25ec246-1572-4b81-92c8-1987af456594,14,0,0
+1673108550950,12,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,12,0,0
+1673108550962,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108550976,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108550987,46,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,46,0,0
+1673108551034,13,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,554,189,1,1,http://localhost:5001/product/composition-notebook-4-pack-b314c5cd-437b-4cc0-b5fd-188c841502aa,13,0,0
+1673108551048,11,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,11,0,0
+1673108551060,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108551070,14,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,14,0,0
+1673108551084,51,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,51,0,0
+1673108551135,9,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,542,170,1,1,http://localhost:5001/product/backpack-d2da5136-a979-439d-9fed-a2495f42a4ef,9,0,0
+1673108551145,13,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,13,0,0
+1673108551158,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108551172,14,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,14,0,0
+1673108551187,447,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,447,0,0
+1673108551635,33,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,177,1,1,http://localhost:5001/product/amazon-cap-gear-d6944d09-6e5a-4f66-8967-db89698f05a1,33,0,0
+1673108551669,41,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,41,0,0
+1673108551711,18,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,18,0,0
+1673108551730,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108551743,83,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,83,0,0
+1673108551826,21,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,520,179,1,1,http://localhost:5001/product/blue-gaming-chair-e8c93f0c-59d5-4d7c-9ed5-bc4665367345,21,0,0
+1673108551849,31,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,31,0,0
+1673108551881,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108551895,7,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,7,0,0
+1673108551903,23,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,23,0,0
+1673108551927,193,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,513,180,1,1,http://localhost:5001/product/digital-multimeter-fb4ad848-ad00-4bde-911a-10965115c795,193,0,0
+1673108552122,83,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,83,0,0
+1673108552206,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108552217,14,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,13,0,0
+1673108552231,44,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,44,0,0
+1673108552275,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,506,175,1,1,http://localhost:5001/product/gray-suitcase-10b74863-5d93-4e3b-9e36-d10ba65ddddb,12,0,0
+1673108552288,10,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,10,0,0
+1673108552298,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108552311,7,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,7,0,0
+1673108552319,157,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,157,0,0
+1673108552477,40,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,479,176,1,1,http://localhost:5001/product/cilantaro-rice-15170cd6-eac7-4361-b986-d6dd6c2e0843,40,0,0
+1673108552526,45,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,45,0,0
+1673108552571,8,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,8,0,0
+1673108552579,22,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,22,0,0
+1673108552601,21,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,21,0,0
+1673108552624,204,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,514,178,1,1,http://localhost:5001/product/usb-wall-charger-1952966a-5ef3-4c51-839c-2cc518352cc3,203,0,0
+1673108552830,63,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,63,0,0
+1673108552894,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108552905,14,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,14,0,0
+1673108552920,97,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,97,0,0
+1673108553017,15,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,498,182,1,1,http://localhost:5001/product/white-casual-sneaker-1fed1c91-bc6d-4a65-9bbd-dc12f7fe011a,14,0,0
+1673108553032,17,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,16,0,0
+1673108553049,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108553060,28,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,28,0,0
+1673108553089,122,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,122,0,0
+1673108553212,17,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,497,174,1,1,http://localhost:5001/product/fabric-chair-32fcf410-cd80-4551-beeb-d3959fdf64f4,17,0,0
+1673108553229,9,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,9,0,0
+1673108553239,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108553254,23,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,23,0,0
+1673108553277,236,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,236,0,0
+1673108553514,31,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,553,189,1,1,http://localhost:5001/product/citrus-lavender-disinfectan-41ea683c-25da-46fe-9da5-9b9072997b24,31,0,0
+1673108553547,58,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,58,0,0
+1673108553606,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108553617,16,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,16,0,0
+1673108553634,123,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,123,0,0
+1673108553767,51,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,522,189,1,1,http://localhost:5001/product/digital-tire-pressure-gauge-5e05a25b-d789-4d5e-9ed0-a6788f1a6bf3,51,0,0
+1673108553819,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108553834,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108553850,9,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,9,0,0
+1673108553859,83,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,83,0,0
+1673108553944,97,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,183,1,1,http://localhost:5001/product/multi-purpose-cleaner-5fb9e4c0-2cf9-4a18-bcfb-59bc70ed9569,97,0,0
+1673108554043,52,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,52,0,0
+1673108554096,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108554106,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108554117,68,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,68,0,0
+1673108554185,11,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,495,173,1,1,http://localhost:5001/product/pet-carrier-5ff61020-9c10-48c6-8c1d-b19d6bdf8234,11,0,0
+1673108554197,11,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,11,0,0
+1673108554209,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108554218,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108554229,166,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,166,0,0
+1673108554395,44,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,178,1,1,http://localhost:5001/product/cream-style-corn-67e91eeb-537d-4f9a-895d-68225d6c28c5,44,0,0
+1673108554440,18,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,18,0,0
+1673108554458,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108554474,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108554490,38,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,38,0,0
+1673108554529,13,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,187,1,1,http://localhost:5001/product/blend-go-smoothie-blender-8741ea6b-f4a9-450d-9437-2b430484f59f,13,0,0
+1673108554542,11,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,11,0,0
+1673108554554,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108554566,48,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,48,0,0
+1673108554615,248,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,248,0,0
+1673108554864,47,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,489,170,1,1,http://localhost:5001/product/pet-food-a1e689bf-3848-4b5b-baa4-d4116f922860,47,0,0
+1673108554913,15,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,15,0,0
+1673108554929,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108554939,20,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,20,0,0
+1673108554959,101,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,101,0,0
+1673108555061,22,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,188,1,1,http://localhost:5001/product/stainless-steel-frying-pan-a22e8fde-484f-47ff-8a9e-c68cb338e521,22,0,0
+1673108555084,16,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,16,0,0
+1673108555101,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108555117,11,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,11,0,0
+1673108555128,223,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,223,0,0
+1673108555351,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,177,1,1,http://localhost:5001/product/pail-mop-bucket-a72176f4-f267-46ba-9092-8c5c69ff8bb8,12,0,0
+1673108555364,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108555378,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108555390,14,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,14,0,0
+1673108555404,44,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,44,0,0
+1673108555449,11,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,184,1,1,http://localhost:5001/product/thermoplastic-filament-b25ec246-1572-4b81-92c8-1987af456594,11,0,0
+1673108555461,15,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,15,0,0
+1673108555477,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108555487,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108555503,142,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,142,0,0
+1673108555646,14,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,554,189,1,1,http://localhost:5001/product/composition-notebook-4-pack-b314c5cd-437b-4cc0-b5fd-188c841502aa,14,0,0
+1673108555660,12,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,12,0,0
+1673108555672,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108555684,21,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,21,0,0
+1673108555706,38,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,38,0,0
+1673108555747,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,542,170,1,1,http://localhost:5001/product/backpack-d2da5136-a979-439d-9fed-a2495f42a4ef,12,0,0
+1673108555760,13,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,13,0,0
+1673108555774,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108555785,18,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
+1673108555803,163,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,163,0,0
+1673108555967,48,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,177,1,1,http://localhost:5001/product/amazon-cap-gear-d6944d09-6e5a-4f66-8967-db89698f05a1,48,0,0
+1673108556015,19,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,19,0,0
+1673108556035,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108556044,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108556055,45,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,45,0,0
+1673108556101,197,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,519,179,1,1,http://localhost:5001/product/blue-gaming-chair-e8c93f0c-59d5-4d7c-9ed5-bc4665367345,197,0,0
+1673108556299,26,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,26,0,0
+1673108556325,8,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,8,0,0
+1673108556333,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108556344,52,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,52,0,0
+1673108556397,18,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,513,180,1,1,http://localhost:5001/product/digital-multimeter-fb4ad848-ad00-4bde-911a-10965115c795,18,0,0
+1673108556416,15,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,15,0,0
+1673108556431,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108556440,17,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,17,0,0
+1673108556458,35,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,35,0,0
+1673108556493,18,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,506,175,1,1,http://localhost:5001/product/gray-suitcase-10b74863-5d93-4e3b-9e36-d10ba65ddddb,18,0,0
+1673108556511,11,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,11,0,0
+1673108556523,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108556533,18,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
+1673108556552,252,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,252,0,0
+1673108556804,21,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,479,176,1,1,http://localhost:5001/product/cilantaro-rice-15170cd6-eac7-4361-b986-d6dd6c2e0843,21,0,0
+1673108556825,13,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,13,0,0
+1673108556838,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108556854,20,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,20,0,0
+1673108556875,222,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,222,0,0
+1673108557098,98,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,514,178,1,1,http://localhost:5001/product/usb-wall-charger-1952966a-5ef3-4c51-839c-2cc518352cc3,98,0,0
+1673108557196,25,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,25,0,0
+1673108557221,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108557236,31,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,31,0,0
+1673108557267,26,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,26,0,0
+1673108557293,13,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,498,182,1,1,http://localhost:5001/product/white-casual-sneaker-1fed1c91-bc6d-4a65-9bbd-dc12f7fe011a,13,0,0
+1673108557307,29,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,29,0,0
+1673108557337,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108557347,34,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,34,0,0
+1673108557382,317,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,317,0,0
+1673108557699,208,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,497,174,1,1,http://localhost:5001/product/fabric-chair-32fcf410-cd80-4551-beeb-d3959fdf64f4,208,0,0
+1673108557908,19,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,19,0,0
+1673108557928,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108557940,26,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,26,0,0
+1673108557967,227,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,227,0,0
+1673108558195,23,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,553,189,1,1,http://localhost:5001/product/citrus-lavender-disinfectan-41ea683c-25da-46fe-9da5-9b9072997b24,23,0,0
+1673108558220,10,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,10,0,0
+1673108558231,17,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,17,0,0
+1673108558249,14,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,14,0,0
+1673108558263,130,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,130,0,0
+1673108558393,18,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,522,189,1,1,http://localhost:5001/product/digital-tire-pressure-gauge-5e05a25b-d789-4d5e-9ed0-a6788f1a6bf3,18,0,0
+1673108558412,21,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,21,0,0
+1673108558434,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108558446,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108558462,321,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,321,0,0
+1673108558783,13,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,183,1,1,http://localhost:5001/product/multi-purpose-cleaner-5fb9e4c0-2cf9-4a18-bcfb-59bc70ed9569,13,0,0
+1673108558796,19,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,19,0,0
+1673108558816,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108558832,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108558848,31,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,31,0,0
+1673108558879,20,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,495,173,1,1,http://localhost:5001/product/pet-carrier-5ff61020-9c10-48c6-8c1d-b19d6bdf8234,20,0,0
+1673108558900,29,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,29,0,0
+1673108558930,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108558944,18,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
+1673108558962,117,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,117,0,0
+1673108559079,106,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,178,1,1,http://localhost:5001/product/cream-style-corn-67e91eeb-537d-4f9a-895d-68225d6c28c5,106,0,0
+1673108559186,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108559200,18,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,18,0,0
+1673108559218,32,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,32,0,0
+1673108559251,24,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,24,0,0
+1673108559275,15,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,187,1,1,http://localhost:5001/product/blend-go-smoothie-blender-8741ea6b-f4a9-450d-9437-2b430484f59f,15,0,0
+1673108559291,9,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,9,0,0
+1673108559301,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108559313,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108559328,144,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,144,0,0
+1673108559473,13,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,489,170,1,1,http://localhost:5001/product/pet-food-a1e689bf-3848-4b5b-baa4-d4116f922860,13,0,0
+1673108559487,13,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,13,0,0
+1673108559501,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108559511,20,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,20,0,0
+1673108559532,137,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,137,0,0
+1673108559670,196,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,188,1,1,http://localhost:5001/product/stainless-steel-frying-pan-a22e8fde-484f-47ff-8a9e-c68cb338e521,196,0,0
+1673108559867,19,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,19,0,0
+1673108559886,22,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,22,0,0
+1673108559908,25,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,25,0,0
+1673108559934,347,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,347,0,0
+1673108560282,38,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,177,1,1,http://localhost:5001/product/pail-mop-bucket-a72176f4-f267-46ba-9092-8c5c69ff8bb8,38,0,0
+1673108560322,36,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,36,0,0
+1673108560359,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108560373,27,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,27,0,0
+1673108560401,21,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,21,0,0
+1673108560423,98,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,184,1,1,http://localhost:5001/product/thermoplastic-filament-b25ec246-1572-4b81-92c8-1987af456594,98,0,0
+1673108560522,16,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,16,0,0
+1673108560538,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108560549,12,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,12,0,0
+1673108560562,159,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,158,0,0
+1673108560721,33,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,554,189,1,1,http://localhost:5001/product/composition-notebook-4-pack-b314c5cd-437b-4cc0-b5fd-188c841502aa,33,0,0
+1673108560755,20,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,20,0,0
+1673108560776,58,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,58,0,0
+1673108560834,29,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,29,0,0
+1673108560864,53,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,53,0,0
+1673108560917,18,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,542,170,1,1,http://localhost:5001/product/backpack-d2da5136-a979-439d-9fed-a2495f42a4ef,18,0,0
+1673108560935,9,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,9,0,0
+1673108560945,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108560956,21,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,21,0,0
+1673108560978,240,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,240,0,0
+1673108561219,41,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,177,1,1,http://localhost:5001/product/amazon-cap-gear-d6944d09-6e5a-4f66-8967-db89698f05a1,41,0,0
+1673108561261,21,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,21,0,0
+1673108561282,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108561294,16,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,16,0,0
+1673108561311,50,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7666,124,1,1,http://localhost:5001/product,50,0,0
+1673108561362,13,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,519,179,1,1,http://localhost:5001/product/blue-gaming-chair-e8c93f0c-59d5-4d7c-9ed5-bc4665367345,13,0,0
+1673108561376,18,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,18,0,0
+1673108561395,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108561412,30,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,30,0,0
+1673108561442,223,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7666,124,1,1,http://localhost:5001/product,223,0,0
+1673108561666,25,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,513,180,1,1,http://localhost:5001/product/digital-multimeter-fb4ad848-ad00-4bde-911a-10965115c795,24,0,0
+1673108561691,18,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,18,0,0
+1673108561710,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108561725,14,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,14,0,0
+1673108561739,15,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7666,124,1,1,http://localhost:5001/product,15,0,0
+1673108561754,14,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,507,175,1,1,http://localhost:5001/product/gray-suitcase-10b74863-5d93-4e3b-9e36-d10ba65ddddb,14,0,0
+1673108561768,37,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,37,0,0
+1673108561806,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108561817,13,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,13,0,0
+1673108561830,330,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7666,124,1,1,http://localhost:5001/product,330,0,0
+1673108562161,35,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,479,176,1,1,http://localhost:5001/product/cilantaro-rice-15170cd6-eac7-4361-b986-d6dd6c2e0843,35,0,0
+1673108562197,24,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,24,0,0
+1673108562222,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108562234,24,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,24,0,0
+1673108562259,35,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7666,124,1,1,http://localhost:5001/product,35,0,0
+1673108562295,14,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,514,178,1,1,http://localhost:5001/product/usb-wall-charger-1952966a-5ef3-4c51-839c-2cc518352cc3,14,0,0
+1673108562310,10,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,10,0,0
+1673108562321,8,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,8,0,0
+1673108562330,16,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,16,0,0
+1673108562346,189,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7666,124,1,1,http://localhost:5001/product,189,0,0
+1673108562536,43,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,498,182,1,1,http://localhost:5001/product/white-casual-sneaker-1fed1c91-bc6d-4a65-9bbd-dc12f7fe011a,43,0,0
+1673108562580,37,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,37,0,0
+1673108562618,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108562629,9,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,9,0,0
+1673108562638,25,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7666,124,1,1,http://localhost:5001/product,25,0,0
+1673108562663,13,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,497,174,1,1,http://localhost:5001/product/fabric-chair-32fcf410-cd80-4551-beeb-d3959fdf64f4,13,0,0
+1673108562676,18,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,17,0,0
+1673108562694,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108562708,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108562723,161,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7666,124,1,1,http://localhost:5001/product,161,0,0
+1673108562887,30,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,553,189,1,1,http://localhost:5001/product/citrus-lavender-disinfectan-41ea683c-25da-46fe-9da5-9b9072997b24,30,0,0
+1673108562919,62,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,62,0,0
+1673108562982,18,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,18,0,0
+1673108563000,24,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,24,0,0
+1673108563025,16,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,16,0,0
+1673108563042,15,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,522,189,1,1,http://localhost:5001/product/digital-tire-pressure-gauge-5e05a25b-d789-4d5e-9ed0-a6788f1a6bf3,14,0,0
+1673108563057,17,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,17,0,0
+1673108563075,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108563088,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108563098,141,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,141,0,0
+1673108563239,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,527,183,1,1,http://localhost:5001/product/multi-purpose-cleaner-5fb9e4c0-2cf9-4a18-bcfb-59bc70ed9569,12,0,0
+1673108563252,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108563266,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108563277,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108563287,102,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,102,0,0
+1673108563390,51,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,496,173,1,1,http://localhost:5001/product/pet-carrier-5ff61020-9c10-48c6-8c1d-b19d6bdf8234,50,0,0
+1673108563445,43,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,43,0,0
+1673108563489,17,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,17,0,0
+1673108563507,11,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,11,0,0
+1673108563519,63,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,63,0,0
+1673108563583,15,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,178,1,1,http://localhost:5001/product/cream-style-corn-67e91eeb-537d-4f9a-895d-68225d6c28c5,15,0,0
+1673108563599,19,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,19,0,0
+1673108563618,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108563627,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108563638,42,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,41,0,0
+1673108563680,14,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,187,1,1,http://localhost:5001/product/blend-go-smoothie-blender-8741ea6b-f4a9-450d-9437-2b430484f59f,14,0,0
+1673108563694,11,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,11,0,0
+1673108563705,19,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,19,0,0
+1673108563725,21,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,21,0,0
+1673108563749,232,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,232,0,0
+1673108563982,56,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,489,170,1,1,http://localhost:5001/product/pet-food-a1e689bf-3848-4b5b-baa4-d4116f922860,56,0,0
+1673108564039,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108564053,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108564063,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108564078,94,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,94,0,0
+1673108564172,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,188,1,1,http://localhost:5001/product/stainless-steel-frying-pan-a22e8fde-484f-47ff-8a9e-c68cb338e521,12,0,0
+1673108564185,16,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,15,0,0
+1673108564201,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108564212,22,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,22,0,0
+1673108564235,142,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,142,0,0
+1673108564378,114,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,177,1,1,http://localhost:5001/product/pail-mop-bucket-a72176f4-f267-46ba-9092-8c5c69ff8bb8,114,0,0
+1673108564493,45,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,45,0,0
+1673108564541,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108564558,19,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,19,0,0
+1673108564578,100,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,100,0,0
+1673108564678,11,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,184,1,1,http://localhost:5001/product/thermoplastic-filament-b25ec246-1572-4b81-92c8-1987af456594,11,0,0
+1673108564689,16,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,16,0,0
+1673108564706,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108564718,35,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,35,0,0
+1673108564753,356,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,356,0,0
+1673108565110,36,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,554,189,1,1,http://localhost:5001/product/composition-notebook-4-pack-b314c5cd-437b-4cc0-b5fd-188c841502aa,36,0,0
+1673108565148,36,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,36,0,0
+1673108565184,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108565195,26,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,26,0,0
+1673108565221,184,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,184,0,0
+1673108565406,33,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,542,170,1,1,http://localhost:5001/product/backpack-d2da5136-a979-439d-9fed-a2495f42a4ef,33,0,0
+1673108565443,31,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,31,0,0
+1673108565475,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108565484,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108565499,48,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,48,0,0
+1673108565547,208,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,177,1,1,http://localhost:5001/product/amazon-cap-gear-d6944d09-6e5a-4f66-8967-db89698f05a1,208,0,0
+1673108565776,40,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,40,0,0
+1673108565817,17,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,17,0,0
+1673108565834,12,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,12,0,0
+1673108565846,58,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,58,0,0
+1673108565905,43,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,519,179,1,1,http://localhost:5001/product/blue-gaming-chair-e8c93f0c-59d5-4d7c-9ed5-bc4665367345,43,0,0
+1673108565949,29,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,29,0,0
+1673108565978,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108565992,12,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,11,0,0
+1673108566004,94,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,94,0,0
+1673108566099,105,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,513,180,1,1,http://localhost:5001/product/digital-multimeter-fb4ad848-ad00-4bde-911a-10965115c795,105,0,0
+1673108566204,21,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,21,0,0
+1673108566226,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108566235,23,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,23,0,0
+1673108566259,38,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,38,0,0
+1673108566297,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,507,175,1,1,http://localhost:5001/product/gray-suitcase-10b74863-5d93-4e3b-9e36-d10ba65ddddb,12,0,0
+1673108566309,19,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,19,0,0
+1673108566329,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108566338,13,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,13,0,0
+1673108566351,456,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,456,0,0
+1673108566807,189,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,479,176,1,1,http://localhost:5001/product/cilantaro-rice-15170cd6-eac7-4361-b986-d6dd6c2e0843,188,0,0
+1673108566997,47,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,47,0,0
+1673108567045,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108567055,9,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,9,0,0
+1673108567065,288,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,288,0,0
+1673108567353,18,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,514,178,1,1,http://localhost:5001/product/usb-wall-charger-1952966a-5ef3-4c51-839c-2cc518352cc3,17,0,0
+1673108567371,17,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,17,0,0
+1673108567388,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108567398,16,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,16,0,0
+1673108567415,39,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,39,0,0
+1673108567455,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,498,182,1,1,http://localhost:5001/product/white-casual-sneaker-1fed1c91-bc6d-4a65-9bbd-dc12f7fe011a,12,0,0
+1673108567468,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108567483,8,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,8,0,0
+1673108567492,11,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,11,0,0
+1673108567503,165,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,165,0,0
+1673108567669,36,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,497,174,1,1,http://localhost:5001/product/fabric-chair-32fcf410-cd80-4551-beeb-d3959fdf64f4,36,0,0
+1673108567706,11,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,11,0,0
+1673108567717,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108567726,21,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,21,0,0
+1673108567753,42,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,42,0,0
+1673108567795,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,553,189,1,1,http://localhost:5001/product/citrus-lavender-disinfectan-41ea683c-25da-46fe-9da5-9b9072997b24,12,0,0
+1673108567808,15,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,15,0,0
+1673108567824,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108567838,34,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,33,0,0
+1673108567872,136,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7667,124,1,1,http://localhost:5001/product,136,0,0
+1673108568009,29,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,522,189,1,1,http://localhost:5001/product/digital-tire-pressure-gauge-5e05a25b-d789-4d5e-9ed0-a6788f1a6bf3,29,0,0
+1673108568039,21,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,21,0,0
+1673108568060,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108568070,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108568086,54,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,54,0,0
+1673108568141,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,527,183,1,1,http://localhost:5001/product/multi-purpose-cleaner-5fb9e4c0-2cf9-4a18-bcfb-59bc70ed9569,12,0,0
+1673108568153,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108568167,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108568178,31,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,31,0,0
+1673108568210,227,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,227,0,0
+1673108568437,24,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,496,173,1,1,http://localhost:5001/product/pet-carrier-5ff61020-9c10-48c6-8c1d-b19d6bdf8234,24,0,0
+1673108568462,28,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,28,0,0
+1673108568490,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108568506,11,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,11,0,0
+1673108568518,116,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,116,0,0
+1673108568634,400,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,178,1,1,http://localhost:5001/product/cream-style-corn-67e91eeb-537d-4f9a-895d-68225d6c28c5,400,0,0
+1673108569036,58,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,58,0,0
+1673108569095,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108569111,22,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,22,0,0
+1673108569134,99,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,99,0,0
+1673108569236,382,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,187,1,1,http://localhost:5001/product/blend-go-smoothie-blender-8741ea6b-f4a9-450d-9437-2b430484f59f,382,0,0
+1673108569618,24,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,23,0,0
+1673108569642,14,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,14,0,0
+1673108569657,23,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,23,0,0
+1673108569681,146,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,146,0,0
+1673108569827,15,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,489,170,1,1,http://localhost:5001/product/pet-food-a1e689bf-3848-4b5b-baa4-d4116f922860,15,0,0
+1673108569842,16,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,16,0,0
+1673108569859,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108569872,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108569887,232,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,232,0,0
+1673108570120,29,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,188,1,1,http://localhost:5001/product/stainless-steel-frying-pan-a22e8fde-484f-47ff-8a9e-c68cb338e521,29,0,0
+1673108570150,27,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,27,0,0
+1673108570178,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108570189,29,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,29,0,0
+1673108570218,45,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,45,0,0
+1673108570263,14,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,177,1,1,http://localhost:5001/product/pail-mop-bucket-a72176f4-f267-46ba-9092-8c5c69ff8bb8,14,0,0
+1673108570278,20,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,20,0,0
+1673108570298,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108570308,18,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
+1673108570326,139,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,139,0,0
+1673108570466,137,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,184,1,1,http://localhost:5001/product/thermoplastic-filament-b25ec246-1572-4b81-92c8-1987af456594,137,0,0
+1673108570603,17,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,16,0,0
+1673108570620,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108570632,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108570647,153,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,153,0,0
+1673108570801,17,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,554,189,1,1,http://localhost:5001/product/composition-notebook-4-pack-b314c5cd-437b-4cc0-b5fd-188c841502aa,17,0,0
+1673108570818,13,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,13,0,0
+1673108570832,8,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,8,0,0
+1673108570841,25,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,25,0,0
+1673108570867,136,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,136,0,0
+1673108571003,393,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,542,170,1,1,http://localhost:5001/product/backpack-d2da5136-a979-439d-9fed-a2495f42a4ef,393,0,0
+1673108571398,45,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,45,0,0
+1673108571444,21,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,21,0,0
+1673108571466,12,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,12,0,0
+1673108571478,110,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,110,0,0
+1673108571588,15,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,177,1,1,http://localhost:5001/product/amazon-cap-gear-d6944d09-6e5a-4f66-8967-db89698f05a1,15,0,0
+1673108571603,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108571618,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108571628,15,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,15,0,0
+1673108571644,149,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,149,0,0
+1673108571794,18,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,520,179,1,1,http://localhost:5001/product/blue-gaming-chair-e8c93f0c-59d5-4d7c-9ed5-bc4665367345,18,0,0
+1673108571812,12,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,12,0,0
+1673108571825,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108571838,32,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,32,0,0
+1673108571871,28,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,28,0,0
+1673108571900,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,513,180,1,1,http://localhost:5001/product/digital-multimeter-fb4ad848-ad00-4bde-911a-10965115c795,12,0,0
+1673108571913,16,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,16,0,0
+1673108571930,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,8,0,0
+1673108571939,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108571949,130,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,130,0,0
+1673108572080,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,507,175,1,1,http://localhost:5001/product/gray-suitcase-10b74863-5d93-4e3b-9e36-d10ba65ddddb,12,0,0
+1673108572092,11,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,11,0,0
+1673108572104,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108572117,22,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,22,0,0
+1673108572139,41,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,41,0,0
+1673108572180,108,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,479,176,1,1,http://localhost:5001/product/cilantaro-rice-15170cd6-eac7-4361-b986-d6dd6c2e0843,108,0,0
+1673108572290,42,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,42,0,0
+1673108572333,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108572348,10,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,10,0,0
+1673108572359,321,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7668,124,1,1,http://localhost:5001/product,321,0,0
+1673108572681,279,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,514,178,1,1,http://localhost:5001/product/usb-wall-charger-1952966a-5ef3-4c51-839c-2cc518352cc3,279,0,0
+1673108572960,24,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,24,0,0
+1673108572985,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108572996,19,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,19,0,0
+1673108573015,337,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7666,124,1,1,http://localhost:5001/product,337,0,0
+1673108573353,14,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,498,182,1,1,http://localhost:5001/product/white-casual-sneaker-1fed1c91-bc6d-4a65-9bbd-dc12f7fe011a,14,0,0
+1673108573367,17,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,17,0,0
+1673108573385,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108573396,21,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,21,0,0
+1673108573418,140,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7666,124,1,1,http://localhost:5001/product,140,0,0
+1673108573559,305,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,497,174,1,1,http://localhost:5001/product/fabric-chair-32fcf410-cd80-4551-beeb-d3959fdf64f4,305,0,0
+1673108573865,54,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,54,0,0
+1673108573920,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108573936,29,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,29,0,0
+1673108573966,27,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7666,124,1,1,http://localhost:5001/product,27,0,0
+1673108573993,9,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,553,189,1,1,http://localhost:5001/product/citrus-lavender-disinfectan-41ea683c-25da-46fe-9da5-9b9072997b24,9,0,0
+1673108574002,20,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,20,0,0
+1673108574023,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108574033,25,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,25,0,0
+1673108574058,138,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7666,124,1,1,http://localhost:5001/product,138,0,0
+1673108574197,237,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,522,189,1,1,http://localhost:5001/product/digital-tire-pressure-gauge-5e05a25b-d789-4d5e-9ed0-a6788f1a6bf3,237,0,0
+1673108574435,33,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,33,0,0
+1673108574468,24,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,24,0,0
+1673108574492,29,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,29,0,0
+1673108574521,122,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,122,0,0
+1673108574643,24,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,526,183,1,1,http://localhost:5001/product/multi-purpose-cleaner-5fb9e4c0-2cf9-4a18-bcfb-59bc70ed9569,24,0,0
+1673108574667,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108574682,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108574694,13,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,13,0,0
+1673108574708,132,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7665,124,1,1,http://localhost:5001/product,132,0,0
+1673108574841,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,495,173,1,1,http://localhost:5001/product/pet-carrier-5ff61020-9c10-48c6-8c1d-b19d6bdf8234,12,0,0
+1673108574854,14,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,14,0,0
+1673108574868,12,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,12,0,0
+1673108574881,25,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,25,0,0
+1673108574906,343,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7664,124,1,1,http://localhost:5001/product,343,0,0
+1673108575250,30,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,490,178,1,1,http://localhost:5001/product/cream-style-corn-67e91eeb-537d-4f9a-895d-68225d6c28c5,30,0,0
+1673108575281,29,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,29,0,0
+1673108575310,9,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,9,0,0
+1673108575320,37,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,37,0,0
+1673108575358,74,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7663,124,1,1,http://localhost:5001/product,74,0,0
+1673108575432,19,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,540,187,1,1,http://localhost:5001/product/blend-go-smoothie-blender-8741ea6b-f4a9-450d-9437-2b430484f59f,19,0,0
+1673108575452,77,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,77,0,0
+1673108575530,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108575541,13,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,13,0,0
+1673108575555,276,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7663,124,1,1,http://localhost:5001/product,276,0,0
+1673108575832,48,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,489,170,1,1,http://localhost:5001/product/pet-food-a1e689bf-3848-4b5b-baa4-d4116f922860,48,0,0
+1673108575881,31,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,31,0,0
+1673108575913,13,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,13,0,0
+1673108575926,22,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,22,0,0
+1673108575949,28,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7663,124,1,1,http://localhost:5001/product,28,0,0
+1673108575977,393,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,541,188,1,1,http://localhost:5001/product/stainless-steel-frying-pan-a22e8fde-484f-47ff-8a9e-c68cb338e521,393,0,0
+1673108576372,29,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,28,0,0
+1673108576401,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108576418,13,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,12,0,0
+1673108576431,135,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7662,124,1,1,http://localhost:5001/product,135,0,0
+1673108576566,13,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,525,177,1,1,http://localhost:5001/product/pail-mop-bucket-a72176f4-f267-46ba-9092-8c5c69ff8bb8,13,0,0
+1673108576579,10,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,10,0,0
+1673108576590,10,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,10,0,0
+1673108576601,59,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,59,0,0
+1673108576660,228,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7662,124,1,1,http://localhost:5001/product,228,0,0
+1673108576889,118,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,525,184,1,1,http://localhost:5001/product/thermoplastic-filament-b25ec246-1572-4b81-92c8-1987af456594,117,0,0
+1673108577007,24,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,24,0,0
+1673108577031,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108577043,20,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,20,0,0
+1673108577063,54,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7663,124,1,1,http://localhost:5001/product,54,0,0
+1673108577118,33,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,554,189,1,1,http://localhost:5001/product/composition-notebook-4-pack-b314c5cd-437b-4cc0-b5fd-188c841502aa,32,0,0
+1673108577151,33,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,33,0,0
+1673108577184,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108577196,24,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,24,0,0
+1673108577220,82,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7663,124,1,1,http://localhost:5001/product,82,0,0
+1673108577302,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,542,170,1,1,http://localhost:5001/product/backpack-d2da5136-a979-439d-9fed-a2495f42a4ef,12,0,0
+1673108577315,17,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,17,0,0
+1673108577332,8,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,8,0,0
+1673108577340,27,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,27,0,0
+1673108577368,132,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7663,124,1,1,http://localhost:5001/product,132,0,0
+1673108577500,96,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,489,177,1,1,http://localhost:5001/product/amazon-cap-gear-d6944d09-6e5a-4f66-8967-db89698f05a1,96,0,0
+1673108577596,11,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,11,0,0
+1673108577607,15,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,15,0,0
+1673108577622,18,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
+1673108577641,56,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7663,124,1,1,http://localhost:5001/product,56,0,0
+1673108577698,19,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,521,179,1,1,http://localhost:5001/product/blue-gaming-chair-e8c93f0c-59d5-4d7c-9ed5-bc4665367345,19,0,0
+1673108577718,22,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,22,0,0
+1673108577740,11,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,11,0,0
+1673108577751,24,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,24,0,0
+1673108577775,119,Get all products,200,OK,CQRS Performance Testing 1-1,text,true,,7663,124,1,1,http://localhost:5001/product,119,0,0
+1673108577894,12,Get specific product,200,OK,CQRS Performance Testing 1-1,text,true,,513,180,1,1,http://localhost:5001/product/digital-multimeter-fb4ad848-ad00-4bde-911a-10965115c795,12,0,0
+1673108577906,24,Create cart,200,OK,CQRS Performance Testing 1-1,text,true,,189,257,1,1,http://localhost:5001/cart,23,0,0
+1673108577930,16,Get all payment methods,200,OK,CQRS Performance Testing 1-1,text,true,,1436,124,1,1,http://localhost:5001/payment,16,0,0
+1673108577946,18,Make a payment for specific cart,200,OK,CQRS Performance Testing 1-1,text,true,,237,295,1,1,http://localhost:5001/payment/cart,18,0,0
