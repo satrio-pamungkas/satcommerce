@@ -19,6 +19,26 @@ There are 3 project replicas (NewSQL with CockroachDB, NoSQL with MongoDB and Re
 - Docker Compose to run all docker services
 - Kubernetes (optional choice to run all docker services), but currently is not configured properly
 
+## Setup and Run
+First of all, please make sure Docker and Docker compose already installed on your system. If you are not sure about this, run this command on your terminal to check version. If one of these commands is not working (command not available), it is likely both tools have not installed or configured yet.
+```
+$ docker compose version
+$ docker --version
+```
+Change directory to your database system choice, for instance :
+```
+$ cd SatCommercePostgreSQL
+```
+Finally, execute this command to run all services on your background (This process could take several minutes to finish, it is really depend on your internet connection). After this, you are freely to close the terminal.
+```
+$ docker compose up -d
+```
+In case you want to stop it, make sure you are on the same directory similarly to previous command. Then, you can run this command to stop the services and also remove existing containers entirely :
+```
+$ docker compose down
+```
+
+
 ## Citation
 You can use and modify this project for further research or blog, but you must cite this repository in your publication. Feel free to modify citation below to specific citation style (i.e. APA, IEEE, etc)
 
