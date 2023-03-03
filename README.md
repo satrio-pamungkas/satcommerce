@@ -1,7 +1,7 @@
 # SatCommerce CQRS Microservices 
 [![DOI](https://zenodo.org/badge/582193037.svg)](https://zenodo.org/badge/latestdoi/582193037)
 
-*Note: This project has been publicy released on Zenodo, you can cite this project (see Citation section [here](https://github.com/satrio-pamungkas/satcommerce/edit/main/README.md#citation))*
+*Note: This project has been publicy released on Zenodo, you can cite this project (see Citation section [here](https://github.com/satrio-pamungkas/satcommerce#citation))*
 
 ## About
 This is public repository contains my research project (thesis) during college days. The aims of this research is actually to compare how Microservices with CQRS pattern perform across multiple databases. Four aspects that being measured are response time, throughput, cpu usage and memory usage.
